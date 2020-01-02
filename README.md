@@ -94,14 +94,14 @@
 5.  [Exa](https://the.exa.website/), [ccze](http://freshmeat.sourceforge.net/projects/ccze/), [lnav](http://lnav.org/) and [cat](https://ss64.com/bash/cat.html) are for viewing stuff in the command line
 6.  [Nano](https://www.nano-editor.org/), [Vim](https://www.vim.org/) and Micro (see below) are for editing
 7.  [Brackets](http://brackets.io/), [pycharm](https://www.jetbrains.com/pycharm/), and [spyder](https://github.com/spyder-ide/spyder/blob/master/README.md) are for python development
-8.  ELinks is for browsing the web via the command line
-9.  Shorewall as a system based firewall
-10.  Webmin for controlling Linux servers via the web
-11.  Fishshell as a bash replacement, check out it’s command tab completion (start typing a command, or type a command + space, then tab, to see options / flags), want to learn more? Check this out
-12.  Tilix as terminal emulator
-13.  Grsync / rsync for backup
-14.  Brasero cd/dvd burning gnome desktop utility
-15.  Nbtscan - netbios scanner
-16.  Mc - “Midnight Comander” a command line, terminal “DOS-like” visual interface that interactively does the work of ls, mv, cp, rm, mkdir, and ftp (and their clones like exa), useful for beginners and or those who like graphics.
+8.  [ELinks](http://elinks.or.cz/) is for browsing the web via the command line
+9.  [Shorewall](http://shorewall.org/index.html) as a system based firewall
+10.  [Webmin](http://www.webmin.com/) for controlling Linux servers via the web
+11.  [Fishhell](https://fishshell.com/) as a bash replacement, see it’s command tab completion (start typing a command, or type a command + space, then tab, to see options / flags), want to learn more? [Check this out](https://rootnroll.com/d/fish-shell/)
+12.  [Tilix](https://github.com/gnunn1/tilix) as terminal emulator
+13.  [Grsync / rsync](http://www.opbyte.it/grsync/) for backup
+14.  [Brasero](https://wiki.gnome.org/Apps/Brasero) cd/dvd burning gnome desktop utility
+15.  [Nbtscan](http://www.unixwiz.net/tools/nbtscan.html)- netbios scanner
+16.  [Mc](https://midnight-commander.org/) - “Midnight Comander” a command line, terminal “DOS-like” visual interface that interactively does the work of ls, mv, cp, rm, mkdir, and ftp (and their clones like exa), useful for beginners and or those who like graphics.
 17.  TLDR - Useful examples to a large list of Linux / Mac and Windows commands (did you know that tldr means "to long didn't read"? Now you do ... )
 18.  Micro - Most Linux users know of the editors Vim, and perhaps Nano (see above); Micro is another editor with easy to learn commands (like ctrl-s for save) plus syntax highlighting ...
