@@ -3,8 +3,8 @@
 **Linuxtech.me Repo**
 
 ----
-[Linux Commands](#Linux-Commands)
-Linux Apps  
+[Linux Commands](#Linux-Commands)  
+[Linux Apps](#Linux-Apps)  
 [Linux Toolbox](http://cb.vu/unixtoolbox.xhtml)  
 [Linux Sys-Admin Tools](https://github.com/epcim/awesome-sysadmin2)  
 [Linux Shell Tools](https://github.com/alebcay/awesome-shell/blob/master/README.md)  
@@ -85,7 +85,7 @@ Linux Apps
 [… & more Linux commands here](http://www.linux-commands-examples.com/_alpha-numerical)
 ----
 
-# Linux Apps
+# Linux-Apps
 
 1.  Apache / NGINX power the web
 2.  Docker, Vagrant, KVM, VirtualBox, & VMware power system deployment
