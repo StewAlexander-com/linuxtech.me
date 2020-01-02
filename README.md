@@ -92,7 +92,7 @@
 3.  [RedHat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), [Suse Linux Enterprise Server (SLES)](https://www.suse.com/products/server/), [CentOS](https://www.centos.org/), [Debian](https://www.debian.org/) and [Windows Server](https://www.microsoft.com/en-us/cloud-platform/windows-server) are the OS’s that power the web
 4.  [Glances](https://nicolargo.github.io/glances/), [htop](http://hisham.hm/htop/), [gtop](https://github.com/aksakalli/gtop), [bmon](https://github.com/tgraf/bmon) and [inxi](https://smxi.org/docs/inxi.htm) are for monitoring system behavior
 5.  [Exa](https://the.exa.website/), [ccze](http://freshmeat.sourceforge.net/projects/ccze/), [lnav](http://lnav.org/) and [cat](https://ss64.com/bash/cat.html) are for viewing stuff in the command line
-6.  [Nano](https://www.nano-editor.org/), [Vim](https://www.vim.org/) and Micro (see below) are for editing
+6.  [Nano](https://www.nano-editor.org/), [Vim](https://www.vim.org/) and [Micro](https://micro-editor.github.io/) (see below) are for editing
 7.  [Brackets](http://brackets.io/), [pycharm](https://www.jetbrains.com/pycharm/), and [spyder](https://github.com/spyder-ide/spyder/blob/master/README.md) are for python development
 8.  [ELinks](http://elinks.or.cz/) is for browsing the web via the command line
 9.  [Shorewall](http://shorewall.org/index.html) as a system based firewall
