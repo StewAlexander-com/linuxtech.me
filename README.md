@@ -2,15 +2,15 @@
 
 **Linuxtech.me Repo**
 
-Linux Commands
-Linux Apps
-[Linux Toolbox](http://cb.vu/unixtoolbox.xhtml)
-[Linux Sys-Admin Tools]([https://github.com/epcim/awesome-sysadmin2](https://github.com/epcim/awesome-sysadmin2)
-[Linux Shell Tools](https://github.com/alebcay/awesome-shell/blob/master/README.md)
-[Facebook Blog](https://www.facebook.com/stewalexandercom)
-[CLI Tools](https://github.com/agarrharr/awesome-cli-apps)
+Linux Commands  
+Linux Apps  
+[Linux Toolbox](http://cb.vu/unixtoolbox.xhtml)  
+[Linux Sys-Admin Tools]([https://github.com/epcim/awesome-sysadmin2](https://github.com/epcim/awesome-sysadmin2)  
+[Linux Shell Tools](https://github.com/alebcay/awesome-shell/blob/master/README.md)  
+[Facebook Blog](https://www.facebook.com/stewalexandercom)  
+[CLI Tools](https://github.com/agarrharr/awesome-cli-apps)  
 
-## Linux Commands
+##Linux Commands
 
 -  ac : prints stats about a users connect time in hours, $ac -pd shows daily user connect time (​psacct needs to be installed and running first)  
 -  anacron : cron job scheduler for a system that is not running 24 hours a day.  
