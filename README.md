@@ -87,10 +87,10 @@
 
 # Linux-Apps
 
-1.  Apache / NGINX power the web
-2.  Docker, Vagrant, KVM, VirtualBox, & VMware power system deployment
-3.  RedHat Enterprise Linux (RHEL), Suse Linux Enterprise Server (SLES), CentOS, Debian and Windows Server are the OS’s that power the web
-4.  Glances, htop, gtop, bmon and inxi are for monitoring system behavior
+1.  [Apache](https://httpd.apache.org) / [NGINX](https://nginx.org/en/) power the web
+2.  [Docker](https://www.docker.com/), [Vagrant](https://www.vagrantup.com/), [KVM](https://www.linux-kvm.org/page/Main_Page), [VirtualBox](https://www.virtualbox.org/), & [VMware](https://www.vmware.com/) power system deployment
+3.  [RedHat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), [Suse Linux Enterprise Server (SLES)](https://www.suse.com/products/server/), [CentOS](https://www.centos.org/), [Debian](https://www.debian.org/) and [Windows Server](https://www.microsoft.com/en-us/cloud-platform/windows-server) are the OS’s that power the web
+4.  [Glances](https://nicolargo.github.io/glances/), [htop](http://hisham.hm/htop/), [gtop](https://github.com/aksakalli/gtop), [bmon](https://github.com/tgraf/bmon) and [inxi](https://smxi.org/docs/inxi.htm) are for monitoring system behavior
 5.  Exa, ccze, lnav and cat are for viewing stuff in the command line
 6.  Nano and vim are for editing
 7.  Brackets, pycharm, and spyder are for python development
