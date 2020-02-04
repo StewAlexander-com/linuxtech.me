@@ -18,7 +18,8 @@
 </tbody>
 </table>
 
-------------------------------------------------------------------------
+***
+***
 
 <table>
 <colgroup>
@@ -108,7 +109,9 @@
 <span style="font-weight:normal">• </span><strong>yum check-update</strong> <span style="font-weight:normal">:</span> shows programs on the system that have available updates<br />
 <em><strong><a href="http://www.linux-commands-examples.com/_alpha-numerical">… &amp; more Linux commands here</a> and  <a href="https://en.wikipedia.org/wiki/List_of_Unix_commands">here</a></strong></em>
 
-------------------------------------------------------------------------
+***
+***
+
 
 <table>
 <colgroup>
@@ -139,47 +142,23 @@ power the web
 **[Suse Linux Enterprise Server (SLES)](https://www.suse.com/products/server/)**, **[CentOS](https://www.centos.org/)**, **[Debian](https://www.debian.org/)** and **[Windows Server](https://www.microsoft.com/en-us/cloud-platform/windows-server)** are the OS’s that power the web  
 4. **[Glances](https://nicolargo.github.io/glances/)**, **[htop](http://hisham.hm/htop/)**, **[gtop](https://github.com/aksakalli/gtop)**,**[bmon](https://github.com/tgraf/bmon)** and Inixi are for monitoring system behavior  
 5. **[Exa](https://github.com/ogham/exa)**, **[ccze](http://freshmeat.sourceforge.net/projects/ccze/)**, **[lnav](http://lnav.org/)** and cat are for viewing stuff in the command line  
-6. [Nano](https://www.nano-editor.org/) and
-[vim](https://www.vim.org/) and  are for editing  
-7. [Brackets](http://brackets.io/),
-[pycharm](https://www.jetbrains.com/pycharm/), and
-[spyder](https://github.com/spyder-ide/spyder/blob/master/README.md) are
-for python development  
-8. [ELinks](http://elinks.or.cz/) is for browsing the web via the
-command line  
-9. [Shorewall](http://shorewall.org/index.html) as a system based
-firewall  
-10. [Webmin](http://www.webmin.com/) for controlling Linux servers via
-the web  
-11. [Fishshell](https://fishshell.com/) as a bash replacement, check out
-it’s command tab completion (start typing a command, or type a command +
-space, then tab, to see options / flags), want to learn more? Check this
-*[out](https://rootnroll.com/d/fish-shell/)*  
-12. [Tilix](https://github.com/gnunn1/tilix) as terminal emulator  
-13. [Grsync / rsync](http://www.opbyte.it/grsync/) for backup  
-14. [Brasero](https://wiki.gnome.org/Apps/Brasero) cd/dvd burning gnome
-desktop utility  
-15. [Nbtscan](http://www.unixwiz.net/tools/nbtscan.html) - netbios
-scanner  
-16. [Mc](https://midnight-commander.org/) - “Midnight Comander” a
-command line, terminal “DOS-like” visual interface that interactively
-does the work of ls, mv, cp, rm, mkdir, and ftp (and their clones like
-exa), useful for beginners and or those who like graphics.  
-17. [Micro](https://micro-editor.github.io/) - Most Linux users know of
-the editors Vim, and perhaps Nano (see above); Micro is another editor
-with easy to learn commands (like ctrl-s for save) plus syntax
-highlighting ...  
-18. [Pi-Hole](https://pi-hole.net/), a DNS blackhole that can be loaded
-on several different versions of Linux (including Debian Ubuntu), to
-keep ads away from your PC / Mac  
-18. [TLDR](https://tldr.sh/) - Useful examples to a large list of Linux
-/ Mac and Windows commands (did you know that tldr means "*to long
-didn't read*"? Now you do ... ), *see below for the TLDR master list as
-a PDF*
+6. **[Nano](https://www.nano-editor.org/)** and **[vim](https://www.vim.org/)** and  are for editing  
+7. **[Brackets](http://brackets.io/)**, **[pycharm](https://www.jetbrains.com/pycharm/)**, and **[spyder](https://github.com/spyder-ide/spyder/blob/master/README.md)** are for python development  
+8. **[ELinks](http://elinks.or.cz/)** is for browsing the web via the command line  
+9. **[Shorewall](http://shorewall.org/index.html)** as a system based firewall  
+10. **[Webmin](http://www.webmin.com/)** for controlling Linux servers via the web  
+11. **[Fishshell](https://fishshell.com/)** as a bash replacement, check out it’s command tab completion (start typing a command, or type a command + space, then tab, to see options / flags), want to learn more? Check this *[out](https://rootnroll.com/d/fish-shell/)*  
+12. **[Tilix](https://github.com/gnunn1/tilix)** as terminal emulator  
+13. **[Grsync / rsync](http://www.opbyte.it/grsync/)** for backup  
+14. **[Brasero](https://wiki.gnome.org/Apps/Brasero)** cd/dvd burning gnome desktop utility  
+15. **[Nbtscan](http://www.unixwiz.net/tools/nbtscan.html)** - netbios scanner  
+16. **[Mc](https://midnight-commander.org/)** - “Midnight Comander” a command line, terminal “DOS-like” visual interface that interactively does the work of ls, mv, cp, rm, mkdir, and ftp (and their clones like exa), useful for beginners and or those who like graphics.  
+17. **[Micro](https://micro-editor.github.io/)** - Most Linux users know of the editors Vim, and perhaps Nano (see above); Micro is another editor with easy to learn commands (like ctrl-s for save) plus syntax highlighting ...  
+18. **[Pi-Hole](https://pi-hole.net/)**, a DNS blackhole that can be loaded on several different versions of Linux (including Debian Ubuntu), to keep ads away from your PC / Mac  
+18. **[TLDR](https://tldr.sh/)** - Useful examples to a large list of Linux / Mac and Windows commands (did you know that tldr means "*to long didn't read*"? Now you do ... ), *see below for the TLDR master list as a PDF*
 
-------------------------------------------------------------------------
-
-------------------------------------------------------------------------
+***
+***
 
 <table>
 <colgroup>
@@ -271,6 +250,7 @@ a PDF*
     *review the links and this*
     *[cheat-sheet](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)*
     *for more, invaluable to development / DevOps*
+19.  **[ELinks](http://elinks.or.cz/)** as above, is for browsing the web via the command line - *The web without a GUI is mighty borring, but sometimes you need it*
 
 **Games:**
 
