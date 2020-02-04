@@ -33,8 +33,6 @@
 <h2 id="linux-commands-1">Linux Commands</h2>
 </div>
 </div></td>
-<td><div class="wsite-spacer" style="height:10px;">
-
 </div></td>
 </tr>
 </tbody>
