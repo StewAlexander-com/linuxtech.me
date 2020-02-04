@@ -1,27 +1,18 @@
 
 <table style="width:100%;">
 <colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
 </colgroup>
 <tbody>
-<tr class="odd">
-<td><h2 id="linux-apps" class="wsite-content-title" style="text-align:center;"><a href="https://www.stewalexander.com/linux.html#Apps">Linux Ap</a><a href="https://www.stewalexander.com/linux.html#Apps">PS</a></h2></td>
-<td><h2 id="cmd-apps" class="wsite-content-title" style="text-align:center;"><a href="https://www.stewalexander.com/linux.html#Cmd">CMD AppS</a></h2></td>
 <td><h2 id="linux-toolbox" class="wsite-content-title" style="text-align:center;"><a href="http://cb.vu/unixtoolbox.xhtml">Linux Toolbox</a></h2></td>
 <td><h2 id="linux-sys-admin-tools" class="wsite-content-title" style="text-align:center;"><a href="https://github.com/epcim/awesome-sysadmin2">Linux Sys-Admin Tools</a></h2></td>
 <td><h2 id="linux-shell-tools" class="wsite-content-title" style="text-align:center;"><a href="https://github.com/alebcay/awesome-shell/blob/master/README.md">Linux Shell Tools</a></h2></td>
 <td><h2 id="facebook-blog" class="wsite-content-title" style="text-align:center;"><a href="https://www.facebook.com/stewalexandercom">Facebook Blog</a></h2></td>
 <td><h2 id="cli-tools" class="wsite-content-title" style="text-align:center;"><a href="https://github.com/agarrharr/awesome-cli-apps">CLI Tools</a></h2></td>
-<td><div class="wsite-spacer" style="height:10px;">
-
 </div></td>
 </tr>
 </tbody>
