@@ -50,14 +50,6 @@
 </tbody>
 </table>
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="paragraph">
 • <strong>ac</strong> : prints stats about a users connect time in hours, $ac -pd shows daily user connect time (​<em>psacct needs to be installed and running first</em>)<br />
 • <strong>anacron</strong> : cron job scheduler for a system that is not running 24 hours a day.<br />
 • <strong>arch</strong> : same as uname -m, prints the machine name<br />
@@ -89,15 +81,13 @@
 • <strong>lastlog </strong>: Shows all users that have logged in (or have the capability to login) and the dates and times of their logins, to limit this to those users who have logged in at some point use "$lastlog |grep -iv never"<br />
 • <strong>ldd </strong>:  Lists the library dependencies of an executable<br />
 • <strong>less </strong>: Pager, shows any text document where you can move through the document by one line, and or page, at a time
-</div></td>
-<td><div class="paragraph">
 • <strong>locate</strong> :  (run"$sudo updatedb" first): fast search for files<br />
 • <strong>logsave </strong>: saves command / terminal/ ssh session output to a file on the desktop with a timestamp<br />
 • <strong>lsblk </strong>: lists all the block devices / partitions of the system<br />
 • <strong>lslogins -u</strong> : show all users with logins, “$lslogins -Lu” show last user logins<br />
 •<strong> lsof </strong>: list of open files on the system, <em>may require downloading lsof</em><br />
 • <strong>lvm </strong>: logical volume manager for LUNs and disk partitions<br />
-​• <strong>man -f</strong> : lists details associated with the commands must run "$sudo makewhatis" first<br />
+• <strong>man -f</strong> : lists details associated with the commands must run "$sudo makewhatis" first<br />
 • <strong>man -k</strong> : searches man pages for the word or string <br />
 • <strong>man ascii</strong> : outputs an ascii table<br />
 <span style="font-weight:normal">• </span><strong>nano</strong><span style="font-weight:normal">: </span>text editor, ex “$nano mytext”, <em>may require downloading nano</em><br />
@@ -129,10 +119,6 @@
 <span style="font-weight:normal">• </span><strong>visudo</strong> <span style="font-weight:normal">: </span>safe secure way of editting the etc/sudoers file, locks the file, checks syntax<br />
 <span style="font-weight:normal">• </span><strong>yum check-update</strong> <span style="font-weight:normal">:</span> shows programs on the system that have available updates<br />
 <em><strong><a href="http://www.linux-commands-examples.com/_alpha-numerical">… &amp; more Linux commands here</a> and  <a href="https://en.wikipedia.org/wiki/List_of_Unix_commands">here</a></strong></em>
-</div></td>
-</tr>
-</tbody>
-</table>
 
 ------------------------------------------------------------------------
 
