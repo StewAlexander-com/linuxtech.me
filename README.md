@@ -58,7 +58,7 @@
 <tbody>
 <tr class="odd">
 <td><div class="paragraph">
-​• <strong>ac</strong> : prints stats about a users connect time in hours, $ac -pd shows daily user connect time (​<em>psacct needs to be installed and running first</em>)<br />
+• <strong>ac</strong> : prints stats about a users connect time in hours, $ac -pd shows daily user connect time (​<em>psacct needs to be installed and running first</em>)<br />
 • <strong>anacron</strong> : cron job scheduler for a system that is not running 24 hours a day.<br />
 • <strong>arch</strong> : same as uname -m, prints the machine name<br />
 • <strong>atop </strong>:  daily logging, like htop, may need to download<br />
@@ -156,7 +156,7 @@
 </tbody>
 </table>
 
-​1. [Apache](https://httpd.apache.org/) / [NGINX](https://nginx.org/en/)
+1. [Apache](https://httpd.apache.org/) / [NGINX](https://nginx.org/en/)
 power the web  
 2. [Docker](https://www.docker.com/),
 [Vagrant](https://www.vagrantup.com/),
@@ -217,21 +217,6 @@ keep ads away from your PC / Mac
 / Mac and Windows commands (did you know that tldr means "*to long
 didn't read*"? Now you do ... ), *see below for the TLDR master list as
 a PDF*
-
-[<img src="//www.weebly.com/weebly/images/file_icons/pdf.png" width="36" height="36" />](/uploads/7/7/6/5/77651292/tldr-book.pdf "Download file: TLDR - Linux Manual.pdf")
-
-**TLDR - Linux Manual.pdf**
-
-File Size:
-
-481 kb
-
-File Type:
-
-pdf
-
-[Download
-File](/uploads/7/7/6/5/77651292/tldr-book.pdf "Download file: TLDR - Linux Manual.pdf")
 
 ------------------------------------------------------------------------
 
