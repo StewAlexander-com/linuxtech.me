@@ -128,30 +128,17 @@
 </tbody>
 </table>
 
-1. [Apache](https://httpd.apache.org/) / [NGINX](https://nginx.org/en/)
+1. **[Apache](https://httpd.apache.org/)** / **[NGINX](https://nginx.org/en/)**
 power the web  
-2. [Docker](https://www.docker.com/),
-[Vagrant](https://www.vagrantup.com/),
-[KVM](https://www.linux-kvm.org/page/Main_Page),
-[VirtualBox](https://www.virtualbox.org/), &
-[VMWare](http://www.vmware.com/) power system deployment  
-3. [RedHat Enterprise Linux
-(RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux),
-[Suse Linux Enterprise Server
-(SLES)](https://www.suse.com/products/server/)[,](https://www.suse.com/products/server/)
-[CentOS](https://www.centos.org/), [Debian](https://www.debian.org/) and
-[Windows](https://www.microsoft.com/en-us/cloud-platform/windows-server)
-[Server](https://www.microsoft.com/en-us/cloud-platform/windows-server)
-are the OS’s that power the web  
-4. [Glances](https://nicolargo.github.io/glances/),
-[htop](http://hisham.hm/htop/),
-[gtop](https://github.com/aksakalli/gtop),
-[bmon](https://github.com/tgraf/bmon) and Inixi are for monitoring
-system behavior  
-5. [Exa](https://github.com/ogham/exa),
-[ccze](http://freshmeat.sourceforge.net/projects/ccze/),
-[lnav](http://lnav.org/) and cat are for viewing stuff in the command
-line  
+2. **[Docker](https://www.docker.com/)**,
+**[Vagrant](https://www.vagrantup.com/)**,
+**[KVM](https://www.linux-kvm.org/page/Main_Page)**,
+**[VirtualBox](https://www.virtualbox.org/)**, &
+**[VMWare](http://www.vmware.com/)** power system deployment  
+3. **[RedHat Enterprise Linux(RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)**,
+**[Suse Linux Enterprise Server (SLES)](https://www.suse.com/products/server/)**, **[CentOS](https://www.centos.org/)**, **[Debian](https://www.debian.org/)** and **[Windows Server](https://www.microsoft.com/en-us/cloud-platform/windows-server)** are the OS’s that power the web  
+4. **[Glances](https://nicolargo.github.io/glances/)**, **[htop](http://hisham.hm/htop/)**, **[gtop](https://github.com/aksakalli/gtop)**,**[bmon](https://github.com/tgraf/bmon)** and Inixi are for monitoring system behavior  
+5. **[Exa](https://github.com/ogham/exa)**, **[ccze](http://freshmeat.sourceforge.net/projects/ccze/)**, **[lnav](http://lnav.org/)** and cat are for viewing stuff in the command line  
 6. [Nano](https://www.nano-editor.org/) and
 [vim](https://www.vim.org/) and  are for editing  
 7. [Brackets](http://brackets.io/),
@@ -233,7 +220,7 @@ a PDF*
 3.  **[Ncdu](https://dev.yorhel.nl/ncdu)** - Must-have tool that easily
     figures out how much space is on a system, and where big files /
     directories are lurking - *kinda like* *WinDirTree for Windows*
-4.  [Bat](https://github.com/sharkdp/bat) - a Linux "cat" command
+4.  **[Bat](https://github.com/sharkdp/bat)** - a Linux "cat" command
     alternative, provides syntax highlighting and enumeration in a
     clean, efficient interface - *we love this, and think you would too*
 5.  **[MTR-tiny](https://www.linode.com/docs/networking/diagnostics/diagnosing-network-issues-with-mtr/)** -
@@ -242,7 +229,7 @@ a PDF*
 6.  **[Lnav](https://lnav.org/)** - As discussed above, a tool to
     explore and decipher all of those *pesky cryptic log files* you need
     to review in order to troubleshoot an issue
-7.  [Mulittail](https://www.vanheusden.com/multitail/) - View multiple
+7.  **[Mulittail](https://www.vanheusden.com/multitail/)** - View multiple
     log files at a time via the console - *often helps to uncover what's
     going on in a borked OS*
 8.  **[Tig](https://github.com/jonas/tig)** - A terminal based Git
@@ -252,33 +239,33 @@ a PDF*
     do  ***;-)**
 10. **[Ned](https://github.com/nevdelap/ned)** - because sed <span
     class="underline">sucks</span> - *yes it does *
-11. [MyCli](https://github.com/dbcli/mycli) - Console client for MySql /
+11. **[MyCli](https://github.com/dbcli/mycli)** - Console client for MySql /
     MariaDB databases that does auto-completion and syntax
     highlighting  - *As most services with a web interface have a
     database in the back-end*
-12. [Glances](https://nicolargo.github.io/glances/) - Console *(and
+12. **[Glances](https://nicolargo.github.io/glances/)** - Console *(and
     web*) based server monitoring tool  (like top on steroids) - *See
     what's going on "at a glance", we use this often to monitor web
     services*
-13. [Taskwarrior](https://taskwarrior.org/) - Manage ToDo / task lists
+13. **[Taskwarrior](https://taskwarrior.org/)** - Manage ToDo / task lists
     from the console - *We like our Markdown GUI clients for individual
     lists, but this is mighty useful when you don't have a GUI*
-14. [Calcurse](https://www.calcurse.org/) - Calendar and appointment
+14. **[Calcurse](https://www.calcurse.org/)** - Calendar and appointment
     tool for the console *- Again, for when you don't have a GUI to run
     Google Chrome / Firefox etc.*
-15. [Htop](https://hisham.hm/htop/) - Top clone with syntax highlighting
+15. **[Htop](https://hisham.hm/htop/)** - Top clone with syntax highlighting
     and mouse support - *The go-to must-have command line tool to
     understand what a Linux system is doing*
-16. [Pandoc](https://pandoc.org/) - document converter *- Have a
+16. **[Pandoc](https://pandoc.org/)** - document converter *- Have a
     MediaWiki or .doc file you need to turn into html? This will do it,
     as well as whole lot more.*
-17. [FireJail](https://firejail.wordpress.com/) - a Type of
+17. **[FireJail](https://firejail.wordpress.com/)** - a Type of
     *[chroot](https://en.wikipedia.org/wiki/Chroot)* jail to sandbox
     processes, services, and or apps so they have less of a chance of
     affecting the greater environment - *This is one approach, another
     is to use a [Docker container](https://www.docker.com/why-docker),
     in specific circumstances*
-18. [Docker](https://www.docker.com/) - the primary program to
+18. **[Docker](https://www.docker.com/)** - the primary program to
     deploy services and or apps as
     [containers](https://www.docker.com/resources/what-container) -
     *review the links and this*
@@ -293,6 +280,6 @@ a PDF*
 -   **[Ninvaders](http://ninvaders.sourceforge.net/)** - Play space
     invaders via the console (*available also for the Mac via
     homebrew*) - *Because 80's Atari games never ever get old...*
--   [Bastet](https://fph.altervista.org/prog/bastet.html) - A Tetris
+-   **[Bastet](https://fph.altervista.org/prog/bastet.html)** - A Tetris
     clone for the console - *C'mon it's Tetris, for the console ... how
     isn't this cool?*
