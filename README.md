@@ -13,7 +13,6 @@
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h2 id="linux-commands" class="wsite-content-title" style="text-align:center;">LINUX COMMANDS</h2></td>
 <td><h2 id="linux-apps" class="wsite-content-title" style="text-align:center;"><a href="https://www.stewalexander.com/linux.html#Apps">Linux Ap</a><a href="https://www.stewalexander.com/linux.html#Apps">PS</a></h2></td>
 <td><h2 id="cmd-apps" class="wsite-content-title" style="text-align:center;"><a href="https://www.stewalexander.com/linux.html#Cmd">CMD AppS</a></h2></td>
 <td><h2 id="linux-toolbox" class="wsite-content-title" style="text-align:center;"><a href="http://cb.vu/unixtoolbox.xhtml">Linux Toolbox</a></h2></td>
