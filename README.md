@@ -252,7 +252,7 @@ power the web
     *review the links and this*
     *[cheat-sheet](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)*
     *for more, invaluable to development / DevOps*
-19.  **[ELinks](http://elinks.or.cz/)** as above, is for browsing the web via the command line - *The web without a GUI is mighty borring, but sometimes you need it*
+19.  **[ELinks](http://elinks.or.cz/)** as above, is for browsing the web via the command line - *The web without a GUI is mighty boring, but sometimes you need it*
 
 **Games:**
 
