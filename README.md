@@ -123,8 +123,6 @@
 <h2 id="linux-apps-1">Linux Apps</h2>
 </div>
 </div></td>
-<td><div class="wsite-spacer" style="height:10px;">
-
 </div></td>
 </tr>
 </tbody>
@@ -209,8 +207,6 @@ a PDF*
 <h2 id="must-have-command-line-apps">Must-have Command Line Apps</h2>
 </div>
 </div></td>
-<td><div class="wsite-spacer" style="height:10px;">
-
 </div></td>
 </tr>
 </tbody>
