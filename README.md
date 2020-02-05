@@ -44,12 +44,12 @@
 • <strong>[ac](https://tldr.ostera.io/linux/ac)</strong> : prints stats about a users connect time in hours, `$ac -pd` shows daily user connect time (_psacct needs to be installed and running first_)<br />
 • <strong>[anacron](https://www.tecmint.com/cron-vs-anacron-schedule-jobs-using-anacron-on-linux)</strong> : cron job scheduler for a system that is not running 24 hours a day.<br />
 • <strong>[arch](https://tldr.ostera.io/arch)</strong> : same as `name -m`, prints the machine name<br />
-• <strong>[atop](https://www.tecmint.com/how-to-install-atop-to-monitor-logging-activity-of-linux-system-processes/) </strong>:  daily logging, like **htop**, may need to download<br />
+• <strong>[atop](https://www.tecmint.com/how-to-install-atop-to-monitor-logging-activity-of-linux-system-processes/)</strong>:  daily logging, like **htop**, may need to download<br />
 • <strong>[bat](https://github.com/sharkdp/bat)</strong>: Linux `cat` clone with syntax highlighting and other cool features<br />
 • <strong>[bmon](https://tldr.ostera.io/linux/bmon)</strong>: network bandwidth monitor<br />
-• <strong>cat /etc/*release </strong>: gives you linux / debian release info<br />
-• <strong>cat /proc/info </strong>: gives you processor info<br />
-• <strong>ccze </strong>: log colorizer, useful for reading var/log/messages (ex. “$sudo tailf /varl/og/messages I ccze” or “$sudo cat /var/log/messages / ccze -m ansi |less -r”)<br />
+• <strong>`$cat /etc/*release`</strong>: gives you linux / debian release info<br />
+• <strong>`$cat /proc/info`</strong>: gives you processor info<br />
+• <strong>[ccze](http://freshmeat.sourceforge.net/projects/ccze/)</strong>: log colorizer, useful for reading var/log/messages (ex. `$sudo tailf /varl/og/messages I ccze` or `$sudo cat /var/log/messages / ccze -m ansi |less -r`)<br />
 • <strong>cd -</strong> : sends the user to the last directory they were in before the present one<br />
 • <strong>clear </strong>: clears the screen<br />
 • <strong>ctrl-a / ctrl- e</strong> : “$ctrl-a” go to the beginning of a line, “$ctrl-e” go to the end of the line<br />
