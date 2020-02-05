@@ -58,9 +58,9 @@
 • <strong>[dig](https://tldr.ostera.io/dig)</strong> : DNS lookup utility<br />
 • <strong>`$dmesg -H`</strong>: (H flag not available on all systems) boostrap info<br />
 • <strong>`$du -hs` </strong>: directory sizes, human readable<br />
-• <strong>eject </strong>: eject removable media (as in an attached USB flash drive, etc)<br />
-• <strong>env </strong>: shows you some info on the shell environment<br />
-• <strong>mkdir -p</strong> : creates full path ex. "$sudo makdir -p home/Maildir/{cur,new,tmp}"<br />
+• <strong>[eject](https://tldr.ostera.io/linux/eject)</strong>: eject removable media (as in an attached USB flash drive, etc)<br />
+• <strong>[env](https://tldr.ostera.io/env)</strong>: shows you some info on the shell environment<br />
+• <strong>`$mkdir -p`</strong> : creates full path ex. `$sudo makdir -p home/Maildir/{cur,new,tmp}`<br />
 • <strong>export VISUAL=nano; visudo </strong>: sets nano as the visudo editor<br />
 • <strong>find /etc -name *conf </strong>: finds and displays all the config files under /etc<br />
 • <strong>free -h</strong> : show you available space on disks, in human readable format<br />
