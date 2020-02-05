@@ -87,7 +87,7 @@
 • <strong>`$ncdu -rx /`</strong> : Scans the existing file system and orders directories by largest to smallest data size, fantastic for finding where all the free space has gone (think WinDirTree ), <em>may require downloading ncdu</em><br />
 • <strong>[nl](https://tldr.ostera.io/nl)</strong> adds line numbers to a file<br />
 • <strong>[`$nmblookup -A`](https://superuser.com/questions/710304/how-to-interpret-output-of-nmblookup-a)</strong> : get the (Windows) netbios name from an IP address<br />
-• <strong>[nmon](http://nmon.sourceforge.net/pmwiki.php) / [glances](https://nicolargo.github.io/glances/)(</strong> : tools for displaying realtime stats on the system, <em>may require downloading </em><br />
+• <strong>[nmon](http://nmon.sourceforge.net/pmwiki.php) / [glances](https://nicolargo.github.io/glances/)</strong> : tools for displaying realtime stats on the system, <em>may require downloading </em><br />
 • <strong>`$pstree -p`</strong> : shows processes and PID in a tree format, very useful<br />
 • <strong>[pushd](https://tldr.ostera.io/linux/pushd) / [popd](https://tldr.ostera.io/linux/popd)</strong> : collects directories to a stack, moves between stack items<br />
 • <strong>[rev](https://tldr.ostera.io/rev)</strong>: reverses the output (as in `$sudo cat var/log/messages |rev`)<br />
