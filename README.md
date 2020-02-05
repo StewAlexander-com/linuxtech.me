@@ -64,13 +64,13 @@
 • <strong>`$export VISUAL=nano; visudo` </strong>: sets nano as the visudo editor<br />
 • <strong>`$find /etc -name *conf`</strong>: finds and displays all the config files under _/etc_<br />
 • <strong>`$free -h`</strong> : show you available space on disks, in human readable format<br />
-• <strong>`$grep -Pri`</strong> : searches for text tin the directory and subdirectories and puts it on the screen, ex: "$grep -Pri ." searches current directory<br />
-• <strong>head </strong>: lists top of file<br />
-• <strong>inode </strong>: contains all the information about any linux / Unix file, is an address to a specific disk block, IS the unix file except for the name, which is stored in the directory (together with the inode number) as a reference to the inode data. It truly is the file; <em>the name one sees in the directory is just a reference</em>.<br />
-• <strong>inxi -Finc 0 &gt; system_data.txt </strong>: Creates a file that lists a huge amount of system hardware related details, somewhat like the Windows "C:\ systeminfo" command, requires downloading inxi (click <a href="https://github.com/smxi/inxi">here</a> for details)<br />
-• <strong>kill $(pgrep mozilla</strong>) : Kills all processes associated with Mozilla Firefox, substitute the app name for "mozilla" to kill it.<br />
-• <strong>lastlog </strong>: Shows all users that have logged in (or have the capability to login) and the dates and times of their logins, to limit this to those users who have logged in at some point use "$lastlog |grep -iv never"<br />
-• <strong>ldd </strong>:  Lists the library dependencies of an executable<br />
+• <strong>`$grep -Pri`</strong> : searches for text tin the directory and subdirectories and puts it on the screen, ex: `$grep -Pri .` searches current directory<br />
+• <strong>[head](https://tldr.ostera.io/head)</strong>: lists top of file<br />
+• <strong>[inode](https://linuxhandbook.com/inode-linux/)</strong>: contains all the information about any linux / Unix file, is an address to a specific disk block, _IS_ the unix file except for the name, which is stored in the directory (together with the inode number) as a reference to the inode data. It truly is the file; <em>the name one sees in the directory is just a reference</em>.<br />
+• <strong>`$inxi -Finc 0 > system_data.txt` </strong>: Creates a file that lists a huge amount of system hardware related details, somewhat like the Windows `C:\ systeminfo` command, requires downloading inxi (click <a href="https://github.com/smxi/inxi">here</a> for details)<br />
+• <strong>`$kill $(pgrep mozilla)`</strong>: Kills all processes associated with Mozilla Firefox, substitute the app name for "mozilla" to kill it.<br />
+• <strong>[lastlog](https://tldr.ostera.io/linux/lastlog)</strong>: Shows all users that have logged in (or have the capability to login) and the dates and times of their logins, to limit this to those users who have logged in at some point use `$lastlog |grep -iv never`<br />
+• <strong>[ldd](https://tldr.ostera.io/linux/ldd)</strong>: Lists the library dependencies of an executable<br />
 • <strong>less </strong>: Pager, shows any text document where you can move through the document by one line, and or page, at a time
 • <strong>locate</strong> :  (run"$sudo updatedb" first): fast search for files<br />
 • <strong>logsave </strong>: saves command / terminal/ ssh session output to a file on the desktop with a timestamp<br />
