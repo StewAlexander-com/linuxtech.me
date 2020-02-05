@@ -85,8 +85,8 @@
 ---
 • <strong>[nano](https://tldr.ostera.io/nano)</strong> :text editor, ex `$nano mytext`, <em>may require downloading nano</em><br />
 • <strong>`$ncdu -rx /`</strong> : Scans the existing file system and orders directories by largest to smallest data size, fantastic for finding where all the free space has gone (think WinDirTree ), <em>may require downloading ncdu</em><br />
-• <strong>nl</strong> adds line numbers to a file<br />
-• <strong>nmblookup</strong><strong> -A</strong> : get the (Windows) netbios name from an IP address<br />
+• <strong>[nl](https://tldr.ostera.io/nl)</strong> adds line numbers to a file<br />
+• <strong>[`$nmblookup -A`](https://superuser.com/questions/710304/how-to-interpret-output-of-nmblookup-a)</strong> : get the (Windows) netbios name from an IP address<br />
 • <strong>nmon / glances</strong> : tools for displaying realtime stats on the system, <em>may require downloading </em><br />
 • <strong>pstree -p</strong> : shows processes and PID in a tree format, very useful<br />
 • <strong>pushd / popd</strong> : collects directories to a stack, moves between stack items<br />
