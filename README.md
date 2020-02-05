@@ -61,10 +61,10 @@
 • <strong>[eject](https://tldr.ostera.io/linux/eject)</strong>: eject removable media (as in an attached USB flash drive, etc)<br />
 • <strong>[env](https://tldr.ostera.io/env)</strong>: shows you some info on the shell environment<br />
 • <strong>`$mkdir -p`</strong> : creates full path ex. `$sudo makdir -p home/Maildir/{cur,new,tmp}`<br />
-• <strong>export VISUAL=nano; visudo </strong>: sets nano as the visudo editor<br />
-• <strong>find /etc -name *conf </strong>: finds and displays all the config files under /etc<br />
-• <strong>free -h</strong> : show you available space on disks, in human readable format<br />
-• <strong>grep -Pri</strong> : searches for text tin the directory and subdirectories and puts it on the screen, ex: "$grep -Pri ." searches current directory<br />
+• <strong>`$export VISUAL=nano; visudo` </strong>: sets nano as the visudo editor<br />
+• <strong>`$find /etc -name *conf`</strong>: finds and displays all the config files under _/etc_<br />
+• <strong>`$free -h`</strong> : show you available space on disks, in human readable format<br />
+• <strong>`$grep -Pri`</strong> : searches for text tin the directory and subdirectories and puts it on the screen, ex: "$grep -Pri ." searches current directory<br />
 • <strong>head </strong>: lists top of file<br />
 • <strong>inode </strong>: contains all the information about any linux / Unix file, is an address to a specific disk block, IS the unix file except for the name, which is stored in the directory (together with the inode number) as a reference to the inode data. It truly is the file; <em>the name one sees in the directory is just a reference</em>.<br />
 • <strong>inxi -Finc 0 &gt; system_data.txt </strong>: Creates a file that lists a huge amount of system hardware related details, somewhat like the Windows "C:\ systeminfo" command, requires downloading inxi (click <a href="https://github.com/smxi/inxi">here</a> for details)<br />
