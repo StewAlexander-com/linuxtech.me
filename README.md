@@ -77,10 +77,12 @@
 • <strong>[lsblk](https://tldr.ostera.io/linux/lsblk)</strong>: lists all the block devices / partitions of the system<br />
 • <strong>`$lslogins -u`</strong> : show all users with logins, `$lslogins -Lu` show last user logins<br />
 •<strong>[lsof](https://tldr.ostera.io/lsof)</strong>: list of open files on the system, <em>may require downloading lsof</em><br />
-• <strong>lvm </strong>: logical volume manager for LUNs and disk partitions<br />
-• <strong>man -f</strong> : lists details associated with the commands must run "$sudo makewhatis" first<br />
-• <strong>man -k</strong> : searches man pages for the word or string <br />
-• <strong>man ascii</strong> : outputs an ascii table<br />
+• <strong>[lvm](https://linoxide.com/linux-how-to/lvm-configuration-linux/) </strong>: logical volume manager for LUNs and disk partitions<br />
+• <strong>`$man -f`</strong>: lists details associated with the commands must run `$sudo makewhatis` first<br />
+• <strong>`$man -k`</strong>: searches man pages for the word or string <br />
+• <strong>`$man ascii`</strong>: outputs an ascii table<br />
+
+
 <span style="font-weight:normal">• </span><strong>nano</strong><span style="font-weight:normal">: </span>text editor, ex “$nano mytext”, <em>may require downloading nano</em><br />
 <span style="font-weight:normal">• </span><strong>ncdu -rx /</strong> : Scans the existing file system and orders directories by largest to smallest data size, fantastic for finding where all the free space has gone (think WinDirTree ), <em>may require downloading ncdu</em><br />
 <span style="font-weight:normal">• </span><strong>nl</strong><span style="font-weight:normal">:</span> adds line numbers to a file<br />
