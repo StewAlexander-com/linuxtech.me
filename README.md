@@ -91,10 +91,10 @@
 • <strong>`$pstree -p`</strong> : shows processes and PID in a tree format, very useful<br />
 • <strong>[pushd](https://tldr.ostera.io/linux/pushd) / [popd](https://tldr.ostera.io/linux/popd)</strong> : collects directories to a stack, moves between stack items<br />
 • <strong>[rev](https://tldr.ostera.io/rev)</strong> : reverses the output (as in `$sudo cat var/log/messages |rev`)<br />
-• <strong>rpm -qa --last</strong> : shows files installed in descending order<br />
-• <strong>rpm -qa</strong> : list all installed apps<br />
-• <strong> </strong><strong>rpm -qa --last |head</strong> : shows recently installed files<br />
-• <strong>screen</strong> : for creating virtual terminals (<em>more useful if logged in remotely, such as by ssh</em>)<br />
+• <strong>`$rpm -qa --last`</strong> : shows files installed in descending order (non-Debian systems)<br />
+• <strong>`$rpm -qa`</strong> : list all installed apps (non-Debian systems)<br />
+• <strong>`$rpm -qa --last |head`</strong> : shows recently installed files (non-Debian systems)<br />
+• <strong>[screen](https://tldr.ostera.io/screen)</strong> : for creating virtual terminals (<em>more useful if logged in remotely, such as by ssh</em>)<br />
 • <strong>script</strong> : logs all transactions of a terminal to a file<br />
 • <strong>set</strong> : shows other shell environmental variables<br />
 • <strong>ss</strong> : socket statistics, "$ss -a |grep -E "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b|[^a-z][^:]:[^:][^:][0-9]" provides only sockets that are attached to an or any IP address.<br />
