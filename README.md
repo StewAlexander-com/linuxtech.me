@@ -107,8 +107,8 @@
 • <strong>`$sudo cat /etc/passwd`</strong>: show list of users on the system, `sudo cat /etc/passwd |grep -iv nologin` show all users with logins<br />
 • <strong>`$sudo yum makecache fast`</strong>: update yum fast mirror package index (non-Debian systems)<br />
 •<strong>[tail](https://tldr.ostera.io/tail)</strong>: lists end of file<br />
-• <strong>uname -a</strong> : gives you linux kernel information<br />
-• <strong>users</strong> : lists users on the system ("$w" and "$last" are also helpful)"<br />
+• <strong>`$uname -a`</strong> : gives you linux kernel information<br />
+• <strong>[users](https://tldr.ostera.io/users)</strong>: lists users on the system (`$w` and `$last` are also helpful)<br />
 • <strong>visudo</strong> : safe secure way of editting the etc/sudoers file, locks the file, checks syntax<br />
 • <strong>yum check-update</strong>  shows programs on the system that have available updates<br />
 <em><strong><a href="http://www.linux-commands-examples.com/_alpha-numerical">… &amp; more Linux commands here</a> and  <a href="https://en.wikipedia.org/wiki/List_of_Unix_commands">here</a></strong></em>
