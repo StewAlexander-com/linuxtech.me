@@ -71,12 +71,12 @@
 • <strong>`$kill $(pgrep mozilla)`</strong>: Kills all processes associated with Mozilla Firefox, substitute the app name for "mozilla" to kill it.<br />
 • <strong>[lastlog](https://tldr.ostera.io/linux/lastlog)</strong>: Shows all users that have logged in (or have the capability to login) and the dates and times of their logins, to limit this to those users who have logged in at some point use `$lastlog |grep -iv never`<br />
 • <strong>[ldd](https://tldr.ostera.io/linux/ldd)</strong>: Lists the library dependencies of an executable<br />
-• <strong>less </strong>: Pager, shows any text document where you can move through the document by one line, and or page, at a time
-• <strong>locate</strong> :  (run"$sudo updatedb" first): fast search for files<br />
-• <strong>logsave </strong>: saves command / terminal/ ssh session output to a file on the desktop with a timestamp<br />
-• <strong>lsblk </strong>: lists all the block devices / partitions of the system<br />
-• <strong>lslogins -u</strong> : show all users with logins, “$lslogins -Lu” show last user logins<br />
-•<strong> lsof </strong>: list of open files on the system, <em>may require downloading lsof</em><br />
+• <strong>[less](https://tldr.ostera.io/less)</strong>: Pager, shows any text document where you can move through the document by one line, and or page, at a time
+• <strong>[locate](https://tldr.ostera.io/linux/locate)</strong> : (may need to run `$sudo updatedb` first): fast search for files<br />
+• <strong>[logsave](https://www.cyberciti.biz/tips/howto-save-linux-unix-command-output-to-file.html)</strong>: saves command / terminal/ ssh session output to a file on the desktop with a timestamp<br />
+• <strong>[lsblk](https://tldr.ostera.io/linux/lsblk)</strong>: lists all the block devices / partitions of the system<br />
+• <strong>`$lslogins -u`</strong> : show all users with logins, `$lslogins -Lu` show last user logins<br />
+•<strong>[lsof](https://tldr.ostera.io/lsof)</strong>: list of open files on the system, <em>may require downloading lsof</em><br />
 • <strong>lvm </strong>: logical volume manager for LUNs and disk partitions<br />
 • <strong>man -f</strong> : lists details associated with the commands must run "$sudo makewhatis" first<br />
 • <strong>man -k</strong> : searches man pages for the word or string <br />
