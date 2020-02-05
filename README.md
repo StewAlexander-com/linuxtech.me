@@ -97,16 +97,16 @@
 • <strong>[screen](https://tldr.ostera.io/screen)</strong>: for creating virtual terminals (<em>more useful if logged in remotely, such as by ssh</em>)<br />
 • <strong>[script](https://tldr.ostera.io/script)</strong>: logs all transactions of a terminal to a file<br />
 • <strong>[set](https://tldr.ostera.io/set)</strong>: shows other shell environmental variables<br />
-• <strong>[ss](https://tldr.ostera.io/linux/ss)</strong>:socket statistics, `$ss -a |grep -E "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b|[^a-z][^:]:[^:][^:][0-9]` provides only sockets that are attached to an or any IP address.<br />
-• <strong>stat</strong> : provides user /group data for the file or directory, ex. “$sudo stat myfile”<br />
-•<strong> </strong><strong>su -</strong> : root privallages and root environment, use with caution<br />
-• <strong>su</strong> : root privallages but keeps the current user environment, good for debugging<br />
-• <strong>sudo -k</strong> : kills the sudo timer so root access isn't kept<br />
-• <strong>sudo -s</strong> : Open a shell account with root privileges, use with caution<br />
-• <strong>sudo !!</strong> : does the previous command again and puts ""sudo"" in front"<br />
-• <strong>sudo cat /etc/passwd</strong><em> </em>: show list of users on the system, “$sudo cat /etc/passwd |grep -iv nologin” show all users with logins<br />
-• <strong>sudo yum makecache fast</strong> : update yum fast mirror package index<br />
-•<strong> </strong><strong>tail</strong> : lists end of file<br />
+• <strong>[ss](https://tldr.ostera.io/linux/ss)</strong>: socket statistics, `$ss -a |grep -E "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b|[^a-z][^:]:[^:][^:][0-9]` provides only sockets that are attached to an or any IP address.<br />
+• <strong>[stat](https://tldr.ostera.io/stat)</strong> : provides user /group data for the file or directory, ex. `$sudo stat myfile`<br />
+•<strong>`$su -`</strong> : root privallages and root environment, use with caution<br />
+• <strong>`$su`</strong> : root privallages but keeps the current user environment, good for debugging<br />
+• <strong>`$sudo -k`</strong> : kills the sudo timer so root access isn't kept<br />
+• <strong>`$sudo -s`</strong> : Open a shell account with root privileges, use with caution<br />
+• <strong>`$sudo !!`</strong> : does the previous command again and puts ""sudo"" in front"<br />
+• <strong>`$sudo cat /etc/passwd`</strong>: show list of users on the system, `sudo cat /etc/passwd |grep -iv nologin` show all users with logins<br />
+• <strong>`$sudo yum makecache fast`</strong>: update yum fast mirror package index (non-Debian systems)<br />
+•<strong>[tail](https://tldr.ostera.io/tail)</strong>: lists end of file<br />
 • <strong>uname -a</strong> : gives you linux kernel information<br />
 • <strong>users</strong> : lists users on the system ("$w" and "$last" are also helpful)"<br />
 • <strong>visudo</strong> : safe secure way of editting the etc/sudoers file, locks the file, checks syntax<br />
