@@ -83,35 +83,36 @@
 • <strong>`$man ascii`</strong>: outputs an ascii table<br />
 
 ---
-• <strong>nano</strong> :text editor, ex “$nano mytext”, <em>may require downloading nano</em><br />
-• <<strong>ncdu -rx /</strong> : Scans the existing file system and orders directories by largest to smallest data size, fantastic for finding where all the free space has gone (think WinDirTree ), <em>may require downloading ncdu</em><br />
-<span style="font-weight:normal">• </span><strong>nl</strong><span style="font-weight:normal">:</span> adds line numbers to a file<br />
-<span style="font-weight:normal">• </span><strong>nmblookup</strong><span style="font-weight:normal"><strong> -A</strong> </span>: get the (Windows) netbios name from an IP address<br />
-<span style="font-weight:normal">• </span><strong>nmon<span style="font-weight:normal"> / </span>glances</strong> : tools for displaying realtime stats on the system, <em>may require downloading </em><br />
-<span style="font-weight:normal">• </span><strong>pstree -p</strong> : shows processes and PID in a tree format, very useful<br />
-<span style="font-weight:normal">• </span><strong>pushd<span style="font-weight:normal"> / </span>popd</strong> : collects directories to a stack, moves between stack items<br />
-<span style="font-weight:normal">• </span><strong>rev</strong> : reverses the output (as in “$sudo cat var/log/messages |rev”)<br />
-<span style="font-weight:normal">• </span><strong>rpm -qa --last</strong> : shows files installed in descending order<br />
-<span style="font-weight:normal">• </span><strong>rpm -qa</strong> : list all installed apps<br />
-<span style="font-weight:normal">•<strong> </strong></span><strong>rpm -qa --last |head</strong> : shows recently installed files<br />
-<span style="font-weight:normal">• </span><strong>screen</strong> : for creating virtual terminals (<em>more useful if logged in remotely, such as by ssh</em>)<br />
-<span style="font-weight:normal">• </span><strong>script</strong> : logs all transactions of a terminal to a file<br />
-<span style="font-weight:normal">• </span><strong>set</strong> : shows other shell environmental variables<br />
-<span style="font-weight:normal">• </span><strong>ss</strong> : socket statistics, "$ss -a |grep -E "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b|[^a-z][^:]:[^:][^:][0-9]" provides only sockets that are attached to an or any IP address.<br />
-<span style="font-weight:normal">• </span><strong>stat</strong> : provides user /group data for the file or directory, ex. “$sudo stat myfile”<br />
-<span style="font-weight:normal">•<strong> </strong></span><strong>su -</strong> : root privallages and root environment, use with caution<br />
-<span style="font-weight:normal">• </span><strong>su</strong> : root privallages but keeps the current user environment, good for debugging<br />
-<span style="font-weight:normal">• </span><strong>sudo -k</strong> : kills the sudo timer so root access isn't kept<br />
-<span style="font-weight:normal">• </span><strong>sudo -s</strong> : Open a shell account with root privileges, use with caution<br />
-<span style="font-weight:normal">• </span><strong>sudo !!</strong> : does the previous command again and puts ""sudo"" in front"<br />
-<span style="font-weight:normal">• </span><strong>sudo cat /etc/passwd</strong><em> </em>: show list of users on the system, “$sudo cat /etc/passwd |grep -iv nologin” show all users with logins<br />
-<span style="font-weight:normal">• </span><strong>sudo yum makecache fast</strong> : update yum fast mirror package index<br />
-<span style="font-weight:normal">•<strong> </strong></span><strong>tail</strong> : lists end of file<br />
-<span style="font-weight:normal">• </span><strong>uname -a</strong> : gives you linux kernel information<br />
-<span style="font-weight:normal">• </span><strong>users</strong> : lists users on the system ("$w" and "$last" are also helpful)<span style="font-weight:normal">"</span><br />
-<span style="font-weight:normal">• </span><strong>visudo</strong> <span style="font-weight:normal">: </span>safe secure way of editting the etc/sudoers file, locks the file, checks syntax<br />
-<span style="font-weight:normal">• </span><strong>yum check-update</strong> <span style="font-weight:normal">:</span> shows programs on the system that have available updates<br />
+• <strong>[nano](https://tldr.ostera.io/nano)</strong> :text editor, ex `$nano mytext`, <em>may require downloading nano</em><br />
+• <strong>`$ncdu -rx /`</strong> : Scans the existing file system and orders directories by largest to smallest data size, fantastic for finding where all the free space has gone (think WinDirTree ), <em>may require downloading ncdu</em><br />
+• <strong>nl</strong> adds line numbers to a file<br />
+• <strong>nmblookup</strong><strong> -A</strong> : get the (Windows) netbios name from an IP address<br />
+• <strong>nmon / glances</strong> : tools for displaying realtime stats on the system, <em>may require downloading </em><br />
+• <strong>pstree -p</strong> : shows processes and PID in a tree format, very useful<br />
+• <strong>pushd / popd</strong> : collects directories to a stack, moves between stack items<br />
+• <strong>rev</strong> : reverses the output (as in “$sudo cat var/log/messages |rev”)<br />
+• <strong>rpm -qa --last</strong> : shows files installed in descending order<br />
+• <strong>rpm -qa</strong> : list all installed apps<br />
+• <strong> </strong><strong>rpm -qa --last |head</strong> : shows recently installed files<br />
+• <strong>screen</strong> : for creating virtual terminals (<em>more useful if logged in remotely, such as by ssh</em>)<br />
+• <strong>script</strong> : logs all transactions of a terminal to a file<br />
+• <strong>set</strong> : shows other shell environmental variables<br />
+• <strong>ss</strong> : socket statistics, "$ss -a |grep -E "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b|[^a-z][^:]:[^:][^:][0-9]" provides only sockets that are attached to an or any IP address.<br />
+• <strong>stat</strong> : provides user /group data for the file or directory, ex. “$sudo stat myfile”<br />
+•<strong> </strong><strong>su -</strong> : root privallages and root environment, use with caution<br />
+• <strong>su</strong> : root privallages but keeps the current user environment, good for debugging<br />
+• <strong>sudo -k</strong> : kills the sudo timer so root access isn't kept<br />
+• <strong>sudo -s</strong> : Open a shell account with root privileges, use with caution<br />
+• <strong>sudo !!</strong> : does the previous command again and puts ""sudo"" in front"<br />
+• <strong>sudo cat /etc/passwd</strong><em> </em>: show list of users on the system, “$sudo cat /etc/passwd |grep -iv nologin” show all users with logins<br />
+• <strong>sudo yum makecache fast</strong> : update yum fast mirror package index<br />
+•<strong> </strong><strong>tail</strong> : lists end of file<br />
+• <strong>uname -a</strong> : gives you linux kernel information<br />
+• <strong>users</strong> : lists users on the system ("$w" and "$last" are also helpful)"<br />
+• <strong>visudo</strong> : safe secure way of editting the etc/sudoers file, locks the file, checks syntax<br />
+• <strong>yum check-update</strong>  shows programs on the system that have available updates<br />
 <em><strong><a href="http://www.linux-commands-examples.com/_alpha-numerical">… &amp; more Linux commands here</a> and  <a href="https://en.wikipedia.org/wiki/List_of_Unix_commands">here</a></strong></em>
+
 
 ***
 ***
