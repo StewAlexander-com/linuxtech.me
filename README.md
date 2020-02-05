@@ -41,20 +41,20 @@
 </tbody>
 </table>
 
-• <strong>ac</strong> : prints stats about a users connect time in hours, $ac -pd shows daily user connect time (​<em>psacct needs to be installed and running first</em>)<br />
-• <strong>anacron</strong> : cron job scheduler for a system that is not running 24 hours a day.<br />
-• <strong>arch</strong> : same as uname -m, prints the machine name<br />
-• <strong>atop </strong>:  daily logging, like htop, may need to download<br />
-• b<strong>at </strong>:  cat clone, download <em><a href="https://github.com/sharkdp/bat">here</a></em><br />
-• <strong>bmon </strong>: bandwidth monitor<br />
+• <strong>[ac](https://tldr.ostera.io/linux/ac)</strong> : prints stats about a users connect time in hours, `$ac -pd` shows daily user connect time (_psacct needs to be installed and running first_)<br />
+• <strong>[anacron](https://www.tecmint.com/cron-vs-anacron-schedule-jobs-using-anacron-on-linux)</strong> : cron job scheduler for a system that is not running 24 hours a day.<br />
+• <strong>[arch](https://tldr.ostera.io/arch)</strong> : same as `name -m`, prints the machine name<br />
+• <strong>[atop](https://www.tecmint.com/how-to-install-atop-to-monitor-logging-activity-of-linux-system-processes/) </strong>:  daily logging, like **htop**, may need to download<br />
+• <strong>[bat](https://github.com/sharkdp/bat)(</strong>: cat clone<br />
+• <strong>bmon</strong>: bandwidth monitor<br />
 • <strong>cat /etc/*release </strong>: gives you linux / debian release info<br />
 • <strong>cat /proc/info </strong>: gives you processor info<br />
-• <strong>ccze </strong>: log colorizer, useful for reading var/log/messages (ex. “$sudo tailf /varl/og/messages I ccze” or “$sudo cat /var/log/messages / ccze -m ansi |less -r”)​<br />
+• <strong>ccze </strong>: log colorizer, useful for reading var/log/messages (ex. “$sudo tailf /varl/og/messages I ccze” or “$sudo cat /var/log/messages / ccze -m ansi |less -r”)<br />
 • <strong>cd -</strong> : sends the user to the last directory they were in before the present one<br />
 • <strong>clear </strong>: clears the screen<br />
 • <strong>ctrl-a / ctrl- e</strong> : “$ctrl-a” go to the beginning of a line, “$ctrl-e” go to the end of the line<br />
 • <strong>ctrl-z</strong> : pauses the running process, "$bg" to background, "$fg" to return it to the foreground<br />
-• <strong>df- h</strong> : space on volumes, human readable​<br />
+• <strong>df- h</strong> : space on volumes, human readable<br />
 • <strong>dig</strong> : DNS lookup utility<br />
 • <strong>dmesg -H </strong>: (H flag not available on all systems) boostrap info<br />
 • <strong>du -hs </strong>: directory sizes, human readable<br />
