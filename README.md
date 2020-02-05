@@ -82,9 +82,9 @@
 • <strong>`$man -k`</strong>: searches man pages for the word or string <br />
 • <strong>`$man ascii`</strong>: outputs an ascii table<br />
 
-
-<span style="font-weight:normal">• </span><strong>nano</strong><span style="font-weight:normal">: </span>text editor, ex “$nano mytext”, <em>may require downloading nano</em><br />
-<span style="font-weight:normal">• </span><strong>ncdu -rx /</strong> : Scans the existing file system and orders directories by largest to smallest data size, fantastic for finding where all the free space has gone (think WinDirTree ), <em>may require downloading ncdu</em><br />
+---
+• <strong>nano</strong> :text editor, ex “$nano mytext”, <em>may require downloading nano</em><br />
+• <<strong>ncdu -rx /</strong> : Scans the existing file system and orders directories by largest to smallest data size, fantastic for finding where all the free space has gone (think WinDirTree ), <em>may require downloading ncdu</em><br />
 <span style="font-weight:normal">• </span><strong>nl</strong><span style="font-weight:normal">:</span> adds line numbers to a file<br />
 <span style="font-weight:normal">• </span><strong>nmblookup</strong><span style="font-weight:normal"><strong> -A</strong> </span>: get the (Windows) netbios name from an IP address<br />
 <span style="font-weight:normal">• </span><strong>nmon<span style="font-weight:normal"> / </span>glances</strong> : tools for displaying realtime stats on the system, <em>may require downloading </em><br />
