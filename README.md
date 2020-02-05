@@ -45,8 +45,8 @@
 • <strong>[anacron](https://www.tecmint.com/cron-vs-anacron-schedule-jobs-using-anacron-on-linux)</strong> : cron job scheduler for a system that is not running 24 hours a day.<br />
 • <strong>[arch](https://tldr.ostera.io/arch)</strong> : same as `name -m`, prints the machine name<br />
 • <strong>[atop](https://www.tecmint.com/how-to-install-atop-to-monitor-logging-activity-of-linux-system-processes/) </strong>:  daily logging, like **htop**, may need to download<br />
-• <strong>[bat](https://github.com/sharkdp/bat)(</strong>: cat clone<br />
-• <strong>bmon</strong>: bandwidth monitor<br />
+• <strong>[bat](https://github.com/sharkdp/bat)</strong>: Linux `cat` clone with syntax highlighting and other cool features<br />
+• <strong>[bmon](https://tldr.ostera.io/linux/bmon)</strong>: network bandwidth monitor<br />
 • <strong>cat /etc/*release </strong>: gives you linux / debian release info<br />
 • <strong>cat /proc/info </strong>: gives you processor info<br />
 • <strong>ccze </strong>: log colorizer, useful for reading var/log/messages (ex. “$sudo tailf /varl/og/messages I ccze” or “$sudo cat /var/log/messages / ccze -m ansi |less -r”)<br />
