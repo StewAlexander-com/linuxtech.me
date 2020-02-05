@@ -50,14 +50,14 @@
 • <strong>`$cat /etc/*release`</strong>: gives you linux / debian release info<br />
 • <strong>`$cat /proc/info`</strong>: gives you processor info<br />
 • <strong>[ccze](http://freshmeat.sourceforge.net/projects/ccze/)</strong>: log colorizer, useful for reading var/log/messages (ex. `$sudo tailf /varl/og/messages I ccze` or `$sudo cat /var/log/messages / ccze -m ansi |less -r`)<br />
-• <strong>cd -</strong> : sends the user to the last directory they were in before the present one<br />
-• <strong>clear </strong>: clears the screen<br />
-• <strong>ctrl-a / ctrl- e</strong> : “$ctrl-a” go to the beginning of a line, “$ctrl-e” go to the end of the line<br />
-• <strong>ctrl-z</strong> : pauses the running process, "$bg" to background, "$fg" to return it to the foreground<br />
-• <strong>df- h</strong> : space on volumes, human readable<br />
-• <strong>dig</strong> : DNS lookup utility<br />
-• <strong>dmesg -H </strong>: (H flag not available on all systems) boostrap info<br />
-• <strong>du -hs </strong>: directory sizes, human readable<br />
+• <strong>`$cd -`</strong> : sends the user to the last directory they were in before the present one<br />
+• <strong>`$clear`</strong>: clears the screen<br />
+• <strong>`$ctrl-a` / `$ctrl- e`</strong> : _ctrl-a_ go to the beginning of a line, _ctrl-e_ go to the end of the line<br />
+• <strong>`$ctrl-z`</strong> : pauses the running process, `$bg` to background, `$fg` to return it to the foreground<br />
+• <strong>`$df- h`</strong> : space on volumes, human readable<br />
+• <strong>[dig](https://tldr.ostera.io/dig)</strong> : DNS lookup utility<br />
+• <strong>`$dmesg -H`</strong>: (H flag not available on all systems) boostrap info<br />
+• <strong>`$du -hs` </strong>: directory sizes, human readable<br />
 • <strong>eject </strong>: eject removable media (as in an attached USB flash drive, etc)<br />
 • <strong>env </strong>: shows you some info on the shell environment<br />
 • <strong>mkdir -p</strong> : creates full path ex. "$sudo makdir -p home/Maildir/{cur,new,tmp}"<br />
