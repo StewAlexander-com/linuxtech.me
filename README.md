@@ -90,14 +90,14 @@
 • <strong>[nmon](http://nmon.sourceforge.net/pmwiki.php) / [glances](https://nicolargo.github.io/glances/)(</strong> : tools for displaying realtime stats on the system, <em>may require downloading </em><br />
 • <strong>`$pstree -p`</strong> : shows processes and PID in a tree format, very useful<br />
 • <strong>[pushd](https://tldr.ostera.io/linux/pushd) / [popd](https://tldr.ostera.io/linux/popd)</strong> : collects directories to a stack, moves between stack items<br />
-• <strong>[rev](https://tldr.ostera.io/rev)</strong> : reverses the output (as in `$sudo cat var/log/messages |rev`)<br />
+• <strong>[rev](https://tldr.ostera.io/rev)</strong>: reverses the output (as in `$sudo cat var/log/messages |rev`)<br />
 • <strong>`$rpm -qa --last`</strong> : shows files installed in descending order (non-Debian systems)<br />
 • <strong>`$rpm -qa`</strong> : list all installed apps (non-Debian systems)<br />
 • <strong>`$rpm -qa --last |head`</strong> : shows recently installed files (non-Debian systems)<br />
-• <strong>[screen](https://tldr.ostera.io/screen)</strong> : for creating virtual terminals (<em>more useful if logged in remotely, such as by ssh</em>)<br />
-• <strong>script</strong> : logs all transactions of a terminal to a file<br />
-• <strong>set</strong> : shows other shell environmental variables<br />
-• <strong>ss</strong> : socket statistics, "$ss -a |grep -E "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b|[^a-z][^:]:[^:][^:][0-9]" provides only sockets that are attached to an or any IP address.<br />
+• <strong>[screen](https://tldr.ostera.io/screen)</strong>: for creating virtual terminals (<em>more useful if logged in remotely, such as by ssh</em>)<br />
+• <strong>[script](https://tldr.ostera.io/script)</strong>: logs all transactions of a terminal to a file<br />
+• <strong>[set](https://tldr.ostera.io/set)</strong>: shows other shell environmental variables<br />
+• <strong>[ss](https://tldr.ostera.io/linux/ss)</strong>:socket statistics, `$ss -a |grep -E "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b|[^a-z][^:]:[^:][^:][0-9]` provides only sockets that are attached to an or any IP address.<br />
 • <strong>stat</strong> : provides user /group data for the file or directory, ex. “$sudo stat myfile”<br />
 •<strong> </strong><strong>su -</strong> : root privallages and root environment, use with caution<br />
 • <strong>su</strong> : root privallages but keeps the current user environment, good for debugging<br />
