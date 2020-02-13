@@ -1,0 +1,1411 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head><script src="/gdpr/gdprscript.js?buildTime=1581533974&hasRemindMe=true&stealth=false"></script>
+		<title>LinuxTech.Me - One Linux page to rule them all!</title><meta property="og:site_name" content="Stew Alexander" />
+<meta property="og:title" content="LinuxTech.Me - One Linux page to rule them all!" />
+<meta property="og:description" content="Curated list of useful Linux tools" />
+<meta property="og:image" content="https://www.stewalexander.com/uploads/7/7/6/5/77651292/published/tux-linux.png?1581086948" />
+<meta property="og:url" content="https://www.stewalexander.com/linux.html" />
+
+<meta name="description" content="Curated list of useful Linux tools" />
+<meta name="keywords" content="Linux, Sys, Admin, System, CentOS, Uubhu" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="apple-touch-icon" href="https://77651292-643659607957072112.preview.editmysite.com/uploads/7/7/6/5/77651292/favicon_orig.jpg"/>
+<link rel="apple-touch-icon" sizes="72x72" href="https://77651292-643659607957072112.preview.editmysite.com/uploads/7/7/6/5/77651292/favicon_orig.jpg"/>
+<link rel="apple-touch-icon" sizes="114x114" href="https://77651292-643659607957072112.preview.editmysite.com/uploads/7/7/6/5/77651292/favicon_orig.jpg"/> 
+		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="//cdn2.editmysite.com/css/sites.css?buildTime=1581533974" />
+<link rel="stylesheet" type="text/css" href="//cdn2.editmysite.com/css/old/fancybox.css?1581533974" />
+<link rel="stylesheet" type="text/css" href="//cdn2.editmysite.com/css/social-icons.css?buildtime=1581533974" media="screen,projection" />
+<link rel="stylesheet" type="text/css" href="/files/main_style.css?1581611417" title="wsite-theme-css" />
+<link href='//fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+
+<link href='//fonts.googleapis.com/css?family=Questrial&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='//cdn2.editmysite.com/fonts/Capture_it/font.css?2' rel='stylesheet' type='text/css' />
+<link href='//cdn2.editmysite.com/fonts/Capture_it/font.css?2' rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Roboto:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='//cdn2.editmysite.com/fonts/Capture_it/font.css?2' rel='stylesheet' type='text/css' />
+<link href='//cdn2.editmysite.com/fonts/Virgo_01/font.css?2' rel='stylesheet' type='text/css' />
+<link href='//cdn2.editmysite.com/fonts/Bebas/font.css?2' rel='stylesheet' type='text/css' />
+<style type='text/css'>
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-family:"Questrial" !important;font-style:normal !important;letter-spacing: 1px !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Capture it" !important;letter-spacing: 1px !important;}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {font-family:"Capture it" !important;color:#86c3ff !important;font-style:italic !important;text-transform:  none !important;letter-spacing: 3px !important;}
+.wsite-not-footer h2.wsite-content-title a, .wsite-not-footer .paragraph a, .wsite-not-footer blockquote a, #blogTable .blog-sidebar a, #blogTable .blog-comments a, #blogTable .blog-comments-bottom a, #wsite-com-store a, #wsite-com-product-gen a {color:#ffc300 !important;}
+.wsite-menu-default a {font-family:"Roboto" !important;font-style:italic !important;text-transform:  uppercase !important;letter-spacing: 1px !important;}
+.wsite-menu a {font-family:"Inconsolata" !important;}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {font-family:"Capture it" !important;color:#82c7e0 !important;font-style:italic !important;letter-spacing: 2px !important;}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {font-family:"Virgo 01" !important;color:#a9d6f6 !important;letter-spacing: 2px !important;}
+.wsite-button-inner {font-family:"Bebas" !important;letter-spacing: 2px !important;}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+.wsite-not-footer h2.wsite-content-title a:hover, .wsite-not-footer .paragraph a:hover, .wsite-not-footer blockquote a:hover, #blogTable .blog-sidebar a:hover, #blogTable .blog-comments a:hover, #blogTable .blog-comments-bottom a:hover, #wsite-com-store a:hover, #wsite-com-product-gen a:hover {color:#7ec8fe !important;}
+.wsite-button-large .wsite-button-inner {font-size:13px !important;}
+@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-size:9px !important;line-height:24px !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {font-size:32px !important;}
+.wsite-menu-default a {font-size:11px !important;}
+.wsite-menu a {font-size:12px !important;}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {font-size:13px !important;line-height:32px !important;}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {font-size:12px !important;line-height:16px !important;}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+}</style>
+
+		<script>
+var STATIC_BASE = '//cdn1.editmysite.com/';
+var ASSETS_BASE = '//cdn2.editmysite.com/';
+var STYLE_PREFIX = 'wsite';
+</script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+
+<script type="text/javascript" src="//cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1581533974&"></script>
+<script src="//cdn2.editmysite.com/js/site/main.js?buildTime=1581533974"></script><script type="text/javascript">
+		function initCustomerAccountsModels() {
+					(function(){_W.setup_rpc({"url":"\/ajax\/api\/JsonRPC\/CustomerAccounts\/","actions":{"CustomerAccounts":[{"name":"login","len":2,"multiple":false,"standalone":false},{"name":"logout","len":0,"multiple":false,"standalone":false},{"name":"getSessionDetails","len":0,"multiple":false,"standalone":false},{"name":"getAccountDetails","len":0,"multiple":false,"standalone":false},{"name":"getOrders","len":0,"multiple":false,"standalone":false},{"name":"register","len":4,"multiple":false,"standalone":false},{"name":"emailExists","len":1,"multiple":false,"standalone":false},{"name":"passwordReset","len":1,"multiple":false,"standalone":false},{"name":"passwordUpdate","len":3,"multiple":false,"standalone":false},{"name":"validateSession","len":1,"multiple":false,"standalone":false}]},"namespace":"_W.CustomerAccounts.RPC"});
+_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":"_W.CustomerAccounts.BackboneModelData","collection_namespace":"_W.CustomerAccounts.BackboneCollectionData","bootstrap_namespace":"_W.CustomerAccounts.BackboneBootstrap","models":{"CustomerAccounts":{"_class":"CustomerAccounts.Model.CustomerAccounts","defaults":null,"validation":null,"types":null,"idAttribute":null,"keydefs":null}},"collections":{"CustomerAccounts":{"_class":"CustomerAccounts.Collection.CustomerAccounts"}},"bootstrap":[]});
+})();
+		}
+		if(document.createEvent && document.addEventListener) {
+			var initEvt = document.createEvent('Event');
+			initEvt.initEvent('customerAccountsModelsInitialized', true, false);
+			document.dispatchEvent(initEvt);
+		} else if(document.documentElement.initCustomerAccountsModels === 0){
+			document.documentElement.initCustomerAccountsModels++
+		}
+		</script>
+		<script type="text/javascript"> _W = _W || {}; _W.securePrefix='www.stewalexander.com'; </script><script>_W = _W || {};
+			_W.customerLocale = "en_US";
+			_W.storeName = null;
+			_W.storeCountry = "US";
+			_W.storeCurrency = "USD";
+			_W.storeEuPrivacyPolicyUrl = "";
+			com_currentSite = "643659607957072112";
+			com_userID = "77651292";</script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+<script type="text/javascript" src="//cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1581533974&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script><script type="text/javascript"><!--
+	
+	
+	function initFlyouts(){
+		initPublishedFlyoutMenus(
+			[{"id":"782243356144666527","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"819500601545870977","title":"LinuxTech.Me","url":"linux.html","target":"","nav_menu":false,"nonclickable":false},{"id":"108038458376680283","title":"MebaneWeather.com","url":"weather.html","target":"","nav_menu":false,"nonclickable":false},{"id":"892572802385319811","title":"SolveIT4.Me","url":"services.html","target":"","nav_menu":false,"nonclickable":false},{"id":"739578174254279946","title":"Contact","url":"contact.html","target":"","nav_menu":false,"nonclickable":false},{"id":"315136755602483566","title":"Blog","url":"blog.html","target":"","nav_menu":false,"nonclickable":false}],
+			"819500601545870977",
+			'',
+			'active',
+			false,
+			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+			{}
+		)
+	}
+//-->
+</script>
+		
+		        <script>
+            (function(b,d,h,e,f,a,c){a=d.getElementsByTagName("script");c=!1;
+            var k=e.substring(e.lastIndexOf("/")+1);
+            b[f]=function(a){b[f]=a};
+            a=d.createElement(h),c=d.getElementsByTagName(h)[0],a.async=!0,a.src=e,c.parentNode.insertBefore(a,
+                    c)})(window,document,'script', '//cdn-promote.weebly.com/js/dist/messenger.js','messenger');
+            messenger({ preview: 0, asset_domain: 'cdn-promote.weebly.com', data_domain: 'promote.weebly.com', align: 'right', style: 'long_blue', size: 'medium', page_id: '1453222494689102' });
+        </script>
+	</head>
+	<body class="no-header-page  wsite-page-linux  full-width-body-off header-overlay-on alt-nav-on  wsite-theme-light"><div class="wrapper">
+    <div class="birdseye-header">
+      <div class="nav-wrap">
+        <div class="container">
+          <div class="logo"><span class="wsite-logo">
+
+	
+	<span class="wsite-title-placeholder">&nbsp;</span><span style="display:none">
+	<span style="display:none">Stew Alexander</span>
+	</span>
+	
+
+</span></div>
+          <div class="nav desktop-nav"><ul class="wsite-menu-default">
+		<li id="pg782243356144666527" class="wsite-menu-item-wrap">
+			<a
+						href="/"
+				class="wsite-menu-item"
+				>
+				Home
+			</a>
+			
+		</li>
+		<li id="active" class="wsite-menu-item-wrap">
+			<a
+						href="/linux.html"
+				class="wsite-menu-item"
+				>
+				LinuxTech.Me
+			</a>
+			
+		</li>
+		<li id="pg108038458376680283" class="wsite-menu-item-wrap">
+			<a
+						href="/weather.html"
+				class="wsite-menu-item"
+				>
+				MebaneWeather.com
+			</a>
+			
+		</li>
+		<li id="pg892572802385319811" class="wsite-menu-item-wrap">
+			<a
+						href="/services.html"
+				class="wsite-menu-item"
+				>
+				SolveIT4.Me
+			</a>
+			
+		</li>
+		<li id="pg739578174254279946" class="wsite-menu-item-wrap">
+			<a
+						href="/contact.html"
+				class="wsite-menu-item"
+				>
+				Contact
+			</a>
+			
+		</li>
+		<li id="pg315136755602483566" class="wsite-menu-item-wrap">
+			<a
+						href="/blog.html"
+				class="wsite-menu-item"
+				>
+				Blog
+			</a>
+			
+		</li>
+</ul>
+</div>
+          <a class="hamburger" aria-label="Menu" href="#"><span></span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-wrap">
+      <div id="wsite-content" class="wsite-elements wsite-not-footer">
+	<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section wsite-section-bg-gradient wsite-background-8" style="background: #4370a7;background: linear-gradient(287deg, #4370a7 67%, #b29f8c 100%);" >
+		<div class="wsite-section-content">
+          <div class="container">
+			<div class="wsite-section-elements">
+				<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:36.852979637703%; padding:0 15px;">
+					
+						
+
+<div id="116618539464595742"><div><style type="text/css">
+	#element-acd620da-8644-4c0e-bdff-39a0fc581a42 .border-box {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#element-acd620da-8644-4c0e-bdff-39a0fc581a42 .hide-box {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#element-acd620da-8644-4c0e-bdff-39a0fc581a42 .hide-box .hide-box-content {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+</style><div id="element-acd620da-8644-4c0e-bdff-39a0fc581a42" data-platform-element-id="874959678356211109-1.0.1" class="platform-element-contents">
+	<div class="hide-box">
+    <div class="hide-box-content">
+        <div style="width: auto"><div></div><div><div id="616587638277376625" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><a href="http://LinuxTech.Me"><font face="capture it" color="#ffc300"size=9><u>LinuxTech.Me</u></font></a><br /><br /></div>
+
+
+
+</div></div>
+    </div>
+</div>
+
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement116618539464595742() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "874959678356211109-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+( function() {
+
+    var HideBox,
+        resizeTimeout,
+        that;
+
+    that = this;
+    resizeTimeout = null;
+
+    HideBox = PlatformElement.extend( {
+
+        "update": function() {
+
+            var display,                //  value of CSS "display" to use
+                width;
+
+            //  get screen width
+            width = $( window ).width();
+
+            //  determine which "display" value to use
+            if ( width < 768 ) {
+                display = that.settings.get( "xs" );
+            } else if ( width < 992 ) {
+                display = that.settings.get( "sm" );
+            } else if ( width < 1200 ) {
+                display = that.settings.get( "md" );
+            } else {
+                display = that.settings.get( "lg" );
+            }
+
+            //  update value of "display"
+            that.$( ".hide-box" ).css( "display", display );
+        },
+
+        "installResizeHandler": function() {
+
+            $( window ).resize( function() {
+
+                // ignore resize events as long as an actualResizeHandler execution is in the queue
+                if ( resizeTimeout === null ) {
+                    resizeTimeout = setTimeout( function() {
+                        resizeTimeout = null;
+                        that.actualResizeHandler();
+                    }, 66 );                            //  66ms: the actualResizeHandler will execute at a rate of 15fps
+                }
+            } );            
+        },
+
+        "actualResizeHandler": function() {
+            that.update();
+        },
+
+        "initialize": function() {
+
+            that = this;
+
+            //  update the element's display
+            that.update();
+
+            //  need to resize the element when the window resizes
+            that.installResizeHandler();
+        }
+
+    } );
+
+    return HideBox;
+}() );
+;
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"xs":"none","sm":"none","md":"block","lg":"block"});
+			_Element.prototype.settings.page_element_id = "116618539464595742";
+
+			_Element.prototype.element_id = "acd620da-8644-4c0e-bdff-39a0fc581a42";
+			_Element.prototype.user_id = "77651292";
+			_Element.prototype.site_id = "643659607957072112";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/uploads/b/marketplace-elements-874959678356211109-1.0.1/assets/";
+			new _Element({
+				el: '#element-acd620da-8644-4c0e-bdff-39a0fc581a42'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement116618539464595742();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement116618539464595742, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement116618539464595742();
+		}
+	});
+}
+
+</script></div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:17.470398365987%; padding:0 15px;">
+					
+						
+
+<div id="877349231226334581"><div><style type="text/css">
+	#element-380d6639-b835-450a-ab72-6e74f101b000 .border-box {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#element-380d6639-b835-450a-ab72-6e74f101b000 .hide-box {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#element-380d6639-b835-450a-ab72-6e74f101b000 .hide-box .hide-box-content {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+</style><div id="element-380d6639-b835-450a-ab72-6e74f101b000" data-platform-element-id="874959678356211109-1.0.1" class="platform-element-contents">
+	<div class="hide-box">
+    <div class="hide-box-content">
+        <div style="width: auto"><div></div><div class="wsite-spacer" style="height:18px;"></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:6px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center">
+<a>
+<img src="/uploads/7/7/6/5/77651292/published/tux-linux.png?1581086948" alt="Picture" style="width:94;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div></div>
+    </div>
+</div>
+
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement877349231226334581() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "874959678356211109-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+( function() {
+
+    var HideBox,
+        resizeTimeout,
+        that;
+
+    that = this;
+    resizeTimeout = null;
+
+    HideBox = PlatformElement.extend( {
+
+        "update": function() {
+
+            var display,                //  value of CSS "display" to use
+                width;
+
+            //  get screen width
+            width = $( window ).width();
+
+            //  determine which "display" value to use
+            if ( width < 768 ) {
+                display = that.settings.get( "xs" );
+            } else if ( width < 992 ) {
+                display = that.settings.get( "sm" );
+            } else if ( width < 1200 ) {
+                display = that.settings.get( "md" );
+            } else {
+                display = that.settings.get( "lg" );
+            }
+
+            //  update value of "display"
+            that.$( ".hide-box" ).css( "display", display );
+        },
+
+        "installResizeHandler": function() {
+
+            $( window ).resize( function() {
+
+                // ignore resize events as long as an actualResizeHandler execution is in the queue
+                if ( resizeTimeout === null ) {
+                    resizeTimeout = setTimeout( function() {
+                        resizeTimeout = null;
+                        that.actualResizeHandler();
+                    }, 66 );                            //  66ms: the actualResizeHandler will execute at a rate of 15fps
+                }
+            } );            
+        },
+
+        "actualResizeHandler": function() {
+            that.update();
+        },
+
+        "initialize": function() {
+
+            that = this;
+
+            //  update the element's display
+            that.update();
+
+            //  need to resize the element when the window resizes
+            that.installResizeHandler();
+        }
+
+    } );
+
+    return HideBox;
+}() );
+;
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"xs":"block","sm":"block","md":"none","lg":"none"});
+			_Element.prototype.settings.page_element_id = "877349231226334581";
+
+			_Element.prototype.element_id = "380d6639-b835-450a-ab72-6e74f101b000";
+			_Element.prototype.user_id = "77651292";
+			_Element.prototype.site_id = "643659607957072112";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/uploads/b/marketplace-elements-874959678356211109-1.0.1/assets/";
+			new _Element({
+				el: '#element-380d6639-b835-450a-ab72-6e74f101b000'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement877349231226334581();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement877349231226334581, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement877349231226334581();
+		}
+	});
+}
+
+</script></div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:45.67662199631%; padding:0 15px;">
+					
+						
+
+<div class="wsite-spacer" style="height:10px;"></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div id="874941347758058593"><div><style type="text/css">
+	#element-eb3afb14-4474-4d08-a41d-85107f480a9f .border-box {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#element-eb3afb14-4474-4d08-a41d-85107f480a9f .hide-box {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#element-eb3afb14-4474-4d08-a41d-85107f480a9f .hide-box .hide-box-content {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+</style><div id="element-eb3afb14-4474-4d08-a41d-85107f480a9f" data-platform-element-id="874959678356211109-1.0.1" class="platform-element-contents">
+	<div class="hide-box">
+    <div class="hide-box-content">
+        <div style="width: auto"><div></div><div class="wsite-spacer" style="height:21px;"></div></div>
+    </div>
+</div>
+
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement874941347758058593() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "874959678356211109-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+( function() {
+
+    var HideBox,
+        resizeTimeout,
+        that;
+
+    that = this;
+    resizeTimeout = null;
+
+    HideBox = PlatformElement.extend( {
+
+        "update": function() {
+
+            var display,                //  value of CSS "display" to use
+                width;
+
+            //  get screen width
+            width = $( window ).width();
+
+            //  determine which "display" value to use
+            if ( width < 768 ) {
+                display = that.settings.get( "xs" );
+            } else if ( width < 992 ) {
+                display = that.settings.get( "sm" );
+            } else if ( width < 1200 ) {
+                display = that.settings.get( "md" );
+            } else {
+                display = that.settings.get( "lg" );
+            }
+
+            //  update value of "display"
+            that.$( ".hide-box" ).css( "display", display );
+        },
+
+        "installResizeHandler": function() {
+
+            $( window ).resize( function() {
+
+                // ignore resize events as long as an actualResizeHandler execution is in the queue
+                if ( resizeTimeout === null ) {
+                    resizeTimeout = setTimeout( function() {
+                        resizeTimeout = null;
+                        that.actualResizeHandler();
+                    }, 66 );                            //  66ms: the actualResizeHandler will execute at a rate of 15fps
+                }
+            } );            
+        },
+
+        "actualResizeHandler": function() {
+            that.update();
+        },
+
+        "initialize": function() {
+
+            that = this;
+
+            //  update the element's display
+            that.update();
+
+            //  need to resize the element when the window resizes
+            that.installResizeHandler();
+        }
+
+    } );
+
+    return HideBox;
+}() );
+;
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"xs":"none","sm":"none","md":"block","lg":"block"});
+			_Element.prototype.settings.page_element_id = "874941347758058593";
+
+			_Element.prototype.element_id = "eb3afb14-4474-4d08-a41d-85107f480a9f";
+			_Element.prototype.user_id = "77651292";
+			_Element.prototype.site_id = "643659607957072112";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/uploads/b/marketplace-elements-874959678356211109-1.0.1/assets/";
+			new _Element({
+				el: '#element-eb3afb14-4474-4d08-a41d-85107f480a9f'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement874941347758058593();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement874941347758058593, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement874941347758058593();
+		}
+	});
+}
+
+</script></div></div>
+
+<div><div style="height: 0px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:9.9549526932336%; padding:0 15px;">
+					
+						
+
+<div><div id="438748787318932028" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><center><a href="https://www.stewalexander.com/linux.html#Linux"><font face="capture it" color="#9fdeea" size=5>Linux CMDS</font></a></center></div>
+
+
+
+</div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:11.354942954839%; padding:0 15px;">
+					
+						
+
+<div><div id="852715463541837216" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><center><a href="https://www.stewalexander.com/linux.html#Apps"><font face="capture it" color="#ffc300" size=5>Linux Apps</font></a></center></div>
+
+
+
+</div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:11.55685784692%; padding:0 15px;">
+					
+						
+
+<div><div id="949419325946952442" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><center><a href="https://www.stewalexander.com/linux.html#Cmd"><font face="capture it" color="#9fdeea"size=5>CMD Apps</font></a></center></div>
+
+
+
+</div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:13.649832102661%; padding:0 15px;">
+					
+						
+
+<div><div id="425853145573229076" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><center><a href="http://cb.vu/unixtoolbox.xhtml"><font face="capture it" color="#ffc300"size=5>Linux Toolbox</font></a></center></div>
+
+
+
+</div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:15.778186219583%; padding:0 15px;">
+					
+						
+
+<div><div id="611181067891076277" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><center><a href="https://github.com/epcim/awesome-sysadmin2"><font face="capture it" color="#9fdeea"size=5>Linux Sys-Admin Tools</font></a></center></div>
+
+
+
+</div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:14.983746563486%; padding:0 15px;">
+					
+						
+
+<div><div id="837113364939905403" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><center><a href="https://github.com/alebcay/awesome-shell/blob/master/README.md"><font face="capture it" color="#ffc300"size=5>Linux Shell Tools</font></a></center></div>
+
+
+
+</div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:11.269121932141%; padding:0 15px;">
+					
+						
+
+<div><div id="574740726394435311" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><center><a href="https://www.facebook.com/stewalexandercom"><font face="capture it" color="#9fdeea"size=5>Linux Blog</font></a></center></div>
+
+
+
+</div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:11.452359687135%; padding:0 15px;">
+					
+						
+
+<div><div id="385163576133400199" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><center><a href="https://github.com/agarrharr/awesome-cli-apps"><font face="capture it" color="#ffc300"size=5>CLI Tools</font></a></center></div>
+
+
+
+</div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 5px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 5px; overflow: hidden; width: 100%;"></div></div>
+
+<div class="wsite-spacer" style="height:13px;"></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:20.782608695652%; padding:0 15px;">
+					
+						
+
+<div><div id="479135938417427821" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"></br></br><center><a name="Linux"></a><font face="capture it" color="#9fdeea" size=5>Linux Commands</font></center><br /></div>
+
+
+
+</div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:79.217391304348%; padding:0 15px;">
+					
+						
+
+<div class="wsite-spacer" style="height:10px;"></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div class="wsite-spacer" style="height:10px;"></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+					
+						
+
+<div><div id="492015962669748830" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml">• <strong><a href="https://tldr.ostera.io/linux/ac"><font color="#ffd252"><u>ac</u></font></a></strong><b>:</b> prints stats about a users connect time in hours, <font color="#c1f6ff"><i><code>$ac -pd</code></i></font> <b>:</b> shows daily user connect time (<em>psacct / acct needs to be installed and running first</em>)<br />
+• <strong><a href="https://www.tecmint.com/cron-vs-anacron-schedule-jobs-using-anacron-on-linux"><font color="#ffd252"><u>anacron</u></font></a></strong><b>:</b> cron job scheduler for a system that is not running 24 hours a day.<br />
+ • <strong><a href="https://tldr.ostera.io/arch"><font color="#ffd252"><u>arch</u></font></a></strong><b>:</b> same as <font color="#c1f6ff"><i><code>uname -m</code></i></font> prints the machine name<br />
+ • <strong><a href="https://www.tecmint.com/how-to-install-atop-to-monitor-logging-activity-of-linux-system-processes/"><font color="#ffd252"><u>atop</u></font></a></strong><b>:</b>  daily logging, like <strong>htop</strong>, may need to download<br />
+ • <strong><a href="https://github.com/sharkdp/bat"><font color="#ffd252"><u>bat</u></font></a></strong><b>:</b> Linux <font color="#c1f6ff"><i><code>cat</code></i></font> clone with syntax highlighting and other cool features<br />
+ • <strong><a href="https://tldr.ostera.io/linux/bmon"><font color="#ffd252"><u>bmon</u></font></a></strong><b>:</b> network bandwidth monitor<br />
+ • <font color="#c1f6ff"><i><code>$cat /etc/*release</code></i></font> <b>:</b> gives you linux / debian release info<br />
+ • <font color="#c1f6ff"><i><code>$cat /proc/info</code></i></font> <b>:</b> gives you processor info<br />
+ • <strong><a href="http://freshmeat.sourceforge.net/projects/ccze/"><font color="#ffd252"><u>ccze</u></font></a></strong><b>:</b> log colorizer, useful for reading var/log/messages (ex. <font color="#c1f6ff"><i><code>$sudo tailf /varl/og/messages | ccze</code></i></font> or <font color="#c1f6ff"><i><code>$sudo cat /var/log/messages / ccze -m ansi |less -r</code></i></font>)<br />
+ • <font color="#c1f6ff"><i><code>$cd -</code></i></font> <b>:</b> sends the user to the last directory they were in before the present one<br />
+ • <font color="#c1f6ff"><i><code>$clear</code></i></font> <b>:</b> clears the screen<br />
+ • <font color="#c1f6ff"><i><code>$ctrl-a</code></i></font> / <font color="#c1f6ff"><i><code>$ctrl- e</code></i></font> <b>:</b> <em>ctrl-a</em> go to the beginning of a line, <em>ctrl-e</em> go to the end of the line<br />
+ • <font color="#c1f6ff"><i><code>$ctrl-z</code></i></font> <b>:</b> pauses the running process, <font color="#c1f6ff"><i><code>$bg</code></i></font> to background, <font color="#c1f6ff"><i><code>$fg</code></i></font> to return it to the foreground<br />
+ • <font color="#c1f6ff"><i><code>$df- h</code></i></font> <b>:</b> space on volumes, human readable<br />
+ • <strong><a href="https://tldr.ostera.io/dig"><font color="#ffd252"><u>dig</u></font></a></strong><b>:</b> DNS lookup utility<br />
+ • <font color="#c1f6ff"><i><code>$dmesg -H</code></i></font> <b>:</b> (H flag not available on all systems) boostrap info<br />
+ • <font color="#c1f6ff"><i><code>$du -hs</code></i></font> </strong> <b>:</b> directory sizes, human readable<br />
+ • <strong><a href="https://tldr.ostera.io/linux/eject"><font color="#ffd252"><u>eject</u></font></a></strong><b>:</b> eject removable media (as in an attached USB flash drive, etc)<br />
+ • <strong><a href="https://tldr.ostera.io/env"><font color="#ffd252"><u>env</u></font></a></strong><b>:</b> shows you some info on the shell environment<br />
+ • <font color="#c1f6ff"><i><code>$mkdir -p</code></i></font> <b>:</b> creates full path ex. <font color="#c1f6ff"><i><code>$sudo makdir -p home/Maildir/{cur,new,tmp}</code></i></font><br />
+ • <font color="#c1f6ff"><i><code>$export VISUAL=nano; visudo</code></i></font> </strong> <b>:</b> sets nano as the visudo editor<br />
+ • <font color="#c1f6ff"><i><code>$find /etc -name *conf</code></i></font> <b>:</b> finds and displays all the config files under <em>/etc</em><br />
+ • <font color="#c1f6ff"><i><code>$free -h</code></i></font> <b>:</b> show you available space on disks, in human readable format<br />
+ • <font color="#c1f6ff"><i><code>$grep -Pri</code></i></font> <b>:</b> searches for text tin the directory and subdirectories and puts it on the screen, ex <b>:</b> <font color="#c1f6ff"><i><code>$grep -Pri .</code></i></font> searches current directory<br />
+ • <strong><a href="https://tldr.ostera.io/head"><font color="#ffd252"><u>head</u></font></a></strong><b>:</b> lists top of file<br />
+ • <strong><a href="https://linuxhandbook.com/inode-linux/"><font color="#ffd252"><u>inode</u></font></a></strong><b>:</b> contains all the information about any linux / Unix file, is an address to a specific disk block, <em>IS</em> the unix file except for the name, which is stored in the directory (together with the inode number) as a reference to the inode data. It truly is the file; <em>the name one sees in the directory is just a reference</em>.<br />
+ • <font color="#c1f6ff"><i><code>$inxi -Finc 0 &gt; system_data.txt</code></i></font> </strong> <b>:</b> Creates a file that lists a huge amount of system hardware related details, somewhat like the Windows <font color="#c1f6ff"><i><code>C <b>:</b>\ systeminfo</code></i></font> command, requires downloading inxi (click <a href="https://github.com/smxi/inxi"><font color="#ffd252"><u>here</u></font></a> for details)<br />
+ • <font color="#c1f6ff"><i><code>$kill $(pgrep mozilla)</code></i></font> <b>:</b> Kills all processes associated with Mozilla Firefox, substitute the app name for "mozilla" to kill it.<br />
+ • <strong><a href="https://tldr.ostera.io/linux/lastlog"><font color="#ffd252"><u>lastlog</u></font></a></strong><b>:</b> Shows all users that have logged in (or have the capability to login) and the dates and times of their logins, to limit this to those users who have logged in at some point use <font color="#c1f6ff"><i><code>$lastlog |grep -iv never</code></i></font><br />
+ • <strong><a href="https://tldr.ostera.io/linux/ldd"><font color="#ffd252"><u>ldd</u></font></a></strong><b>:</b> Lists the library dependencies of an executable<br />
+ • <strong><a href="https://tldr.ostera.io/less"><font color="#ffd252"><u>less</u></font></a></strong><b>:</b> Pager, shows any text document where you can move through the document by one line, and or page, at a time <br />
+ • <strong><a href="https://tldr.ostera.io/linux/locate"><font color="#ffd252"><u>locate</u></font></a></strong><b>:</b> (may need to run <font color="#c1f6ff"><i><code>$sudo updatedb</code></i></font> first) <b>:</b> fast search for files<br />
+ 
+</div>
+
+
+
+</div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+					
+						
+
+<div><div id="859241186125191222" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml">• <strong><a href="https://www.cyberciti.biz/tips/howto-save-linux-unix-command-output-to-file.html"><font color="#ffd252"><u>logsave</u></font></a></strong><b>:</b> saves command / terminal/ ssh session output to a file on the desktop with a timestamp<br />
+ • <strong><a href="https://tldr.ostera.io/linux/lsblk"><font color="#ffd252"><u>lsblk</u></font></a></strong><b>:</b> lists all the block devices / partitions of the system<br />
+ • <font color="#c1f6ff"><i><code>$lslogins -u</code></i></font> <b>:</b> show all users with logins, <font color="#c1f6ff"><i><code>$lslogins -Lu</code></i></font> show last user logins<br />
+ • <strong><a href="https://tldr.ostera.io/lsof"><font color="#ffd252"><u>lsof</u></font></a></strong><b>:</b> list of open files on the system, <em>may require downloading lsof</em><br />
+ • <strong><a href="https://linoxide.com/linux-how-to/lvm-configuration-linux/"><font color="#ffd252"><u>lvm</u></font></a></strong><b>:</b> logical volume manager for LUNs and disk partitions<br />
+ • <font color="#c1f6ff"><i><code>$man -f</code></i></font> <b>:</b> lists details associated with the commands must run <font color="#c1f6ff"><i><code>$sudo makewhatis</code></i></font> first<br />
+ • <font color="#c1f6ff"><i><code>$man -k</code></i></font> <b>:</b> searches man pages for the word or string <br />
+ • <font color="#c1f6ff"><i><code>$man ascii</code></i></font> <b>:</b> outputs an ascii table<br />
+• <strong><a href="https://tldr.ostera.io/nano"><font color="#ffd252"><u>nano</u></font></a></strong><b>:</b> text editor, ex <font color="#c1f6ff"><i><code>$nano mytext</code></i></font>, <em>may require downloading nano</em></br />
+•  <font color="#c1f6ff"><i><code>$ncdu -rx /</code></i></font> <b>:</b> Scans the existing file system and orders directories by largest to smallest data size, fantastic for finding where all the free space has gone (think WinDirTree ), <em>may require downloading ncdu</em></br />
+• <strong><a href="https://tldr.ostera.io/nl"><font color="#ffd252"><u>nl</u></font></a></strong><b>:</b> adds line numbers to a file</br />
+• <strong><a href="https://superuser.com/questions/710304/how-to-interpret-output-of-nmblookup-a"><font color="#ffd252"><u><font color="#c1f6ff"><i><code>$nmblookup -A</code></i></font></u></font></a></strong><b>:</b> get the (Windows) netbios name from an IP address</br />
+• <strong><a href="http://nmon.sourceforge.net/pmwiki.php"><font color="#ffd252"><u>nmon</u></font></a> / <a href="https://nicolargo.github.io/glances/"><font color="#ffd252"><u>glances</u></font></a></strong><b>:</b> tools for displaying realtime stats on the system, <em>may require downloading </em></br />
+• <font color="#c1f6ff"><i><code>$pstree -p</code></i></font> <b>:</b> shows processes and PID in a tree format, very useful</br />
+• <strong><a href="https://tldr.ostera.io/linux/pushd"><font color="#ffd252"><u>pushd</u></font></a> / <a href="https://tldr.ostera.io/linux/popd"><font color="#ffd252"></u>popd</u></font></a></strong><b>:</b> collects directories to a stack, moves between stack items</br />
+• <strong><a href="https://tldr.ostera.io/rev"><font color="#ffd252"><u>rev</u></font></a></strong><b>:</b> reverses the output (as in <font color="#c1f6ff"><i><code>$sudo cat var/log/messages |rev</code></i></font>)</br />
+• <font color="#c1f6ff"><i><code>$rpm -qa --last</code></i></font> <b>:</b> shows files installed in descending order (non-Debian systems)</br />
+• <font color="#c1f6ff"><i><code>$rpm -qa</code></i></font> <b>:</b> list all installed apps (non-Debian systems)</br />
+• <font color="#c1f6ff"><i><code>$rpm -qa --last |head</code></i></font> <b>:</b> shows recently installed files (non-Debian systems)</br />
+• <strong><a href="https://tldr.ostera.io/screen"><font color="#ffd252"><u>screen</u></font></a></strong><b>:</b> for creating virtual terminals (<em>more useful if logged in remotely, such as by ssh</em>)</br />
+• <strong><a href="https://tldr.ostera.io/script"><font color="#ffd252"><u>script</u></font></a></strong><b>:</b> logs all transactions of a terminal to a file</br />
+• <strong><a href="https://tldr.ostera.io/set"><font color="#ffd252"><u>set</u></font></a></strong><b>:</b> shows other shell environmental variables</br />
+• <strong><a href="https://tldr.ostera.io/linux/ss"><font color="#ffd252"><u>ss</u></font></a></strong><b>:</b> socket statistics, <font color="#c1f6ff"><i><code>$ss -a |grep -E "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b|[^a-z][^:]:[^:][^:][0-9]</code></i></font> provides only sockets that are attached to an or any IP address.</br />
+• <strong><a href="https://tldr.ostera.io/stat"><font color="#ffd252"><u>stat</u></font></a></strong><b>:</b> provides user /group data for the file or directory, ex. <font color="#c1f6ff"><i><code>$sudo stat myfile</code></i></font></br />
+• <font color="#c1f6ff"><i><code>$su -</code></i></font> <b>:</b> root privallages and root environment, use with caution</br />
+• <font color="#c1f6ff"><i><code>$su</code></i></font> <b>:</b> root privallages but keeps the current user environment, good for debugging</br />
+• <font color="#c1f6ff"><i><code>$sudo -k</code></i></font> <b>:</b> kills the sudo timer so root access isn't kept</br />
+• <font color="#c1f6ff"><i><code>$sudo -s</code></i></font> <b>:</b> Open a shell account with root privileges, use with caution</br />
+• <font color="#c1f6ff"><i><code>$sudo !!</code></i></font> <b>:</b> does the previous command again and puts ""sudo"" in front"</br />
+• <font color="#c1f6ff"><i><code>$sudo cat /etc/passwd</code></i></font> <b>:</b> show list of users on the system, <font color="#c1f6ff"><i><code>sudo cat /etc/passwd |grep -iv nologin</code></i></font> show all users with logins</br />
+• <font color="#c1f6ff"><i><code>$sudo yum makecache fast</code></i></font> <b>:</b> update yum fast mirror package index (non-Debian systems)</br />
+• <strong><a href="https://tldr.ostera.io/tail"><font color="#ffd252"><u>tail</u></font></a></strong><b>:</b> lists end of file</br />
+• <font color="#c1f6ff"><i><code>$uname -a</code></i></font> <b>:</b> gives you linux kernel information</br />
+• <strong><a href="https://tldr.ostera.io/users"><font color="#ffd252"><u>users</u></font></a></strong><b>:</b> lists users on the system (<font color="#c1f6ff"><i><code>$w</code></i></font> and <font color="#c1f6ff"><i><code>$last</code></i></font> are also helpful)</br />
+• <strong><a href="https://tldr.ostera.io/visudo"><font color="#ffd252"><u>visudo</u></font></a></strong><b>:</b> safe secure way of editting the etc/sudoers file, locks the file, checks syntax</br />
+• <font color="#c1f6ff"><i><code>$yum check-update</code></i></font> <b>:</b> shows programs on the system that have available updates</br />
+ <em><strong><a href="http://www.linux-commands-examples.com/_alpha-numerical"><font color="#ffd252"><u>… &amp; more Linux commands here</u></font></a>, <a href="https://en.wikipedia.org/wiki/List_of_Unix_commands"><font color="#ffd252"><u>here</u></font></a></strong></em>, and <em><strong><a href="https://highon.coffee/blog/linux-commands-cheat-sheet/"><font color="#ffd252"><u>here </u></font></a>
+</div>
+
+
+
+</div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div class="wsite-spacer" style="height:20px;"></div>
+
+<div><div style="height: 0px; overflow: hidden; width: 80%;"></div>
+<hr class="styled-hr" style="width:80%;"></hr>
+<div style="height: 20px; overflow: hidden; width: 80%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:15.652173913043%; padding:0 15px;">
+					
+						
+
+<div><div id="408847822115879374" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><center><a name="Apps"></a> <font face="capture it" color="#ffc300" size=5>Linux Apps</font></center><br /><br></div>
+
+
+
+</div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:84.347826086957%; padding:0 15px;">
+					
+						
+
+<div class="wsite-spacer" style="height:10px;"></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div class="paragraph" style="text-align:left;"><font size="2">&#8203;1</font><strong><font color="#f8eaa9">.</font> </strong><font size="2"><strong><a href="https://httpd.apache.org/" target="_blank">Apache</a></strong> / <strong><a href="https://nginx.org/en/" target="_blank">NGINX</a></strong>&nbsp;- power the web</font><br /><font size="2">2.</font><font color="#a9f8dd" size="2"> <strong><a href="https://www.docker.com/">Docker</a></strong></font><strong><font size="2">, <a href="https://www.vagrantup.com/" target="_blank">Vagrant</a>,</font> <a href="https://www.linux-kvm.org/page/Main_Page"><font size="2">KVM</font></a><font size="2">, </font><a href="https://www.virtualbox.org/" target="_blank"><font size="2">VirtualBox</font></a></strong><font size="2">, &amp;<font color="#a9e4f8"> <strong><a href="http://www.vmware.com/" target="_blank">VMWare</a></strong></font>&nbsp;-&nbsp;</font><font size="2">power system deployment</font><br /><font size="2">3. </font><strong><a href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux"><font size="2">RedHat Enterprise Linux (RHEL)</font></a></strong><font size="2">,<strong> <a href="https://www.suse.com/products/server/">Suse Linux Enterprise Server (SLES)</a><a href="https://www.suse.com/products/server/">,</a></strong></font><strong> <a href="https://www.centos.org/" target="_blank"><font size="2">CentOS</font></a></strong><font size="2">,</font><strong> <a href="https://www.debian.org/"><font size="2">Debian</font></a></strong><font size="2"> and </font><strong><font color="#beeeff" size="2"><a href="https://www.microsoft.com/en-us/cloud-platform/windows-server" target="_blank">Windows</a><a href="https://www.microsoft.com/en-us/cloud-platform/windows-server" target="_blank"> Server</a></font></strong><font size="2"> are the OS&rsquo;s that power the web</font><br /><font size="2">4. <strong><a href="https://nicolargo.github.io/glances/">Glances</a></strong>, <strong><a href="http://hisham.hm/htop/">htop</a></strong>, <strong><a href="https://github.com/aksakalli/gtop" target="_blank">gtop</a></strong>, <strong><a href="https://github.com/tgraf/bmon" target="_blank">bmon</a></strong> and&nbsp;Inixi&nbsp;are for monitoring system behavior</font><br /><font size="2">5. <strong><a href="https://github.com/ogham/exa" target="_blank">Exa</a>, <a href="http://freshmeat.sourceforge.net/projects/ccze/">ccze</a>, <a href="http://lnav.org/" target="_blank">lnav</a></strong> and cat are for viewing stuff in the command line</font><br /><font size="2">6.</font> <strong><a href="https://www.nano-editor.org/" target="_blank"><font color="#f6c9ff" size="2">Nano</font></a></strong><font size="2"> and </font><font><strong><a href="https://www.vim.org/"><font color="#f6c9ff" size="2">vim</font></a></strong>&nbsp;<font size="2">and</font><font color="#a9e4f8">&nbsp;</font>&nbsp;</font><font size="2">are for editing<br />7. <strong><a href="http://brackets.io/"><font color="#f6c9ff">Brackets</font></a>, <a href="https://www.jetbrains.com/pycharm/" style=""><font color="#f6c9ff">pycharm</font></a><font color="#f6c9ff">&nbsp;</font></strong></font>-<font size="2"><strong></strong>&nbsp;and <a href="https://github.com/spyder-ide/spyder/blob/master/README.md"><font color="#a9f8dd">spyder</font></a> are for python development<br />8. <strong><a href="http://elinks.or.cz/" target="_blank"><font color="#f6c9ff">ELinks</font></a></strong>&nbsp;- is for browsing the web via the command line<br />9. <strong><a href="http://shorewall.org/index.html"><font color="#f6c9ff">Shorewall</font></a></strong>&nbsp;- as a system based firewall<br />10. <strong><a href="http://www.webmin.com/"><font color="#f6c9ff">Webmin</font></a></strong>&nbsp;- for controlling Linux servers via the web<br />11. <strong><a href="https://fishshell.com/"><font color="#a9f8dd">Fishshell</font></a></strong>&nbsp;-&nbsp;<font color="#2a2a2a">a</font>s a bash replacement, check out it&rsquo;s command tab completion (start typing a command, or type a command + space, then tab, to see options / flags), want to learn more? Check this <em><a href="https://rootnroll.com/d/fish-shell/" target="_blank"><font color="#ffd8b4">out</font></a></em><br />12. <strong><a href="https://github.com/gnunn1/tilix"><font color="#a9f8dd">Tilix</font></a></strong> as terminal emulator<br />13</font><font size="3">.</font><font size="2"> <strong><a href="http://www.opbyte.it/grsync/" target="_blank"><font color="#a9f8dd">Grsync</font> <font color="#ffd8b4">/</font><font color="#a9f8dd"> rsync</font></a></strong> for backup<br />14. <strong><a href="https://wiki.gnome.org/Apps/Brasero" target="_blank"><font color="#a9f8dd">Brasero</font></a></strong> cd/dvd burning gnome desktop utility<br />15. <strong><a href="http://www.unixwiz.net/tools/nbtscan.html" target="_blank"><font color="#a9f8dd">Nbtscan</font></a></strong> - netbios scanner<br />16.<strong> <a href="https://midnight-commander.org/" target="_blank"><font color="#a9f8dd">Mc</font></a></strong> - &ldquo;Midnight Comander&rdquo; a command line, terminal &ldquo;DOS-like&rdquo; visual interface that interactively does the work of ls, mv, cp, rm, mkdir, and ftp (and their clones like exa), useful for beginners and or those who like graphics.</font><br /><font size="2">17.&nbsp;<strong><a href="https://micro-editor.github.io/" target="_blank"><font color="#a9f8dd">Micro</font></a></strong>&nbsp;- Most Linux users know of the editors&nbsp;Vim, and perhaps&nbsp;Nano&nbsp;(see above); Micro is another editor with easy to learn commands (like ctrl-s for save) plus syntax highlighting ...</font><br /><font size="2">18</font>.<strong> <a href="https://pi-hole.net/" target="_blank" style="font-size: small;"><font color="#a9f8dd">Pi-Hole</font></a></strong><font size="2">&nbsp;- a <font color="#ffd8b4">DNS blackhole</font>&nbsp;that can be loaded on several different versions of Linux (including Debian Ubuntu), to keep ads away from your PC / Mac</font><br /><font size="2">18</font><font size="2">. <strong><a href="https://tldr.sh/" target="_blank"><font color="#a9f8dd">TLDR</font></a></strong> </font>-<font size="2"> Useful examples to a large list of Linux / Mac and Windows commands (did you know that tldr means "<em><font color="#a9f8dd">to long didn't read</font></em>"? Now you do ... ), <em><font color="#ffd8b4">see below for the TLDR master list as a PDF</font></em></font></div>
+
+<div><div style="margin: 10px 0 0 -10px">
+<a title="Download file: TLDR - Linux Manual.pdf" href="/uploads/7/7/6/5/77651292/tldr-book.pdf"><img src="//www.weebly.com/weebly/images/file_icons/pdf.png" width="36" height="36" style="float: left; position: relative; left: 0px; top: 0px; margin: 0 15px 15px 0; border: 0;" /></a><div style="float: left; text-align: left; position: relative;"><table style="font-size: 12px; font-family: tahoma; line-height: .9;"><tr><td colspan="2"><b> TLDR - Linux Manual.pdf</b></td></tr><tr style="display: none;"><td>File Size:  </td><td>481 kb</td></tr><tr style="display: none;"><td>File Type:  </td><td> pdf</td></tr></table><a title="Download file: TLDR - Linux Manual.pdf" href="/uploads/7/7/6/5/77651292/tldr-book.pdf" style="font-weight: bold;">Download File</a></div>
+</div>
+
+<hr style="clear: both; width: 100%; visibility: hidden"></hr></div>
+
+<div><div style="height: 0px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 30px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:35.391304347826%; padding:0 15px;">
+					
+						
+
+<div><div id="353595331972954433" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><center><a name="Cmd"></a><font face="capture it" color="9fdeea" size=5>Must-have Command Line Apps</font></center><br /><br /></div>
+
+
+
+</div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:64.608695652174%; padding:0 15px;">
+					
+						
+
+<div class="wsite-spacer" style="height:10px;"></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div class="paragraph"><strong><font color="#a9f8dd" size="3">Shell Replacements:</font></strong><ol><li><font size="2"><font color="#7aeac4"><strong><a href="https://fishshell.com/" target="_blank">Fish</a></strong> </font>- "Friendly interactive shell", shell replacement for BASH, provides syntax coloring, tab completions, themes and well <em><font color="#64d5ff">awesomeness&nbsp;</font></em></font></li><li><font size="2"><font color="#a9f8dd"><a href="https://ohmyz.sh/" target="_blank">Zsh / Oh my Zsh</a></font> - Shell replacement for BASH if you need / want POSIX compliance (if you don't know what POSIX is, we recommend <strong><font color="#fdcf58">Fish</font></strong>) <em><font color="#d5d5d5">- If you use this shell replacement, we recommend going <a href="http://zzapper.co.uk/zshtips.html" target="_blank">here</a> to get a ton of tips on using zsh</font></em></font></li></ol><br /><strong><font color="#a9f8dd" size="3">Tools:</font></strong><ol><li><font size="2"><strong><font color="#a9f8dd"><a href="https://micro-editor.github.io/" target="_blank">Micro</a></font></strong> - As discussed above, a <em><font color="#64d5ff">really cool </font></em>text editor that provides syntax highlighting and more (otherwise we&nbsp;recommend <em>Vim</em> as an alternative)</font></li><li><font size="2"><strong><font color="#a9f8dd"><a href="https://github.com/ranger/ranger" target="_blank">Ranger</a></font></strong> - A directory / file explorer providing an easier way to find files via the terminal - <em><font color="#d5d5d5">sort of like Windows Explorer for the console.</font></em></font></li><li><font size="2"><font color="#a9f8dd"><a href="https://dev.yorhel.nl/ncdu" target="_blank">Ncdu</a></font> - Must-have&nbsp;tool that easily figures out how much space is on a system, and where big files / directories are lurking&nbsp;-<font color="#d5d5d5"> <em>kinda like </em></font><em><font color="#77c93b">WinDirTree</font> <font color="#d5d5d5">for Windows</font></em></font></li><li><font size="2"><a href="https://github.com/sharkdp/bat" target="_blank">Bat</a> - a Linux "cat" command alternative, provides syntax highlighting and enumeration in a clean, efficient interface -<em><font color="#d5d5d5"> we love this, and think you would too</font></em></font></li><li><font size="2"><strong><font color="#a9f8dd"><a href="https://www.linode.com/docs/networking/diagnostics/diagnosing-network-issues-with-mtr/" target="_blank">MTR-tiny</a></font></strong> - A package that combines&nbsp;ping and traceroute into a single tool with <em><font color="#64d5ff">superpowers</font></em> to isolate networking issues</font></li><li><font size="2"><font color="#94b788"><strong><a href="https://lnav.org/" target="_blank">Lnav</a></strong> </font>- As discussed above, a tool to explore and decipher all of those <em><font color="#d5d5d5">pesky&nbsp;cryptic&nbsp;log files</font> </em>you need to review in order to troubleshoot an issue</font></li><li><font size="2"><a href="https://www.vanheusden.com/multitail/" target="_blank">Mulittail </a>- View multiple log files&nbsp;at a time via the console - <em><font color="#d5d5d5">often helps to uncover what's going on in a </font><font color="#b7d0a3">borked</font> <font color="#d5d5d5">OS</font></em></font></li><li><font size="2"><strong><font color="#a9f8dd"><a href="https://github.com/jonas/tig" target="_blank">Tig</a> </font></strong>- A terminal based Git client (for the <em>crafty</em> developers among you)</font></li><li><font size="2"><font color="#feffc5"><strong><a href="https://github.com/rakshasa/rtorrent" target="_blank">Rtorrent</a> </strong></font>- terminal based BitTorrent client - <em><font color="#d5d5d5">for all that </font><font color="#a3a3a3">(ahem)</font> <font color="#d5d5d5">legal downloading you do&nbsp;</font><font color="#feffc5">&nbsp;</font></em><strong style="color:rgb(254, 255, 197)">;-)</strong></font></li><li><font size="2"><strong><font color="#f8eaa9"><a href="https://github.com/nevdelap/ned" target="_blank">Ned</a> </font></strong>- because sed <u>sucks</u> <font color="#d5d5d5">-<em> yes it does&nbsp;</em></font></font></li><li><font size="2"><a href="https://github.com/dbcli/mycli" target="_blank">MyCli</a> - Console client for MySql / MariaDB databases that does auto-completion&nbsp;and syntax highlighting&nbsp; -<font color="#d5d5d5"><em> As most services with a web interface have a database in the back-end</em></font></font></li><li><font size="2"><a href="https://nicolargo.github.io/glances/" target="_blank">Glances</a> - Console <em>(<font color="#64d5ff">and web</font></em>) based server monitoring tool&nbsp; (like top on steroids) - <em><font color="#d5d5d5">See what's going on "at a glance", we use this often to monitor web services</font></em></font></li><li><font size="2"><a href="https://taskwarrior.org/" target="_blank">Taskwarrior</a> - Manage ToDo / task lists from the console - <em><font color="#d5d5d5">We like our Markdown GUI clients for individual lists,&nbsp;but this is mighty useful when you don't have a GUI</font></em></font></li><li><font size="2"><a href="https://www.calcurse.org/" target="_blank">Calcurse</a> - Calendar and appointment tool for the console<em><font color="#d5d5d5"> - Again, for when you don't have a GUI to run Google Chrome / Firefox etc.</font></em></font></li><li><font size="2"><a href="https://hisham.hm/htop/" target="_blank">Htop</a> - Top clone with syntax highlighting and mouse support - <em><font color="#d5d5d5">The go-to must-have command line tool to understand what a Linux system is doing</font></em></font></li><li><font size="2"><a href="https://pandoc.org/" target="_blank">Pandoc</a> - document converter <em><font color="#d5d5d5">- Have a MediaWiki or .doc file you need to turn into html? This will do it, as well as whole lot more.</font></em></font></li><li><font size="2"><a href="https://firejail.wordpress.com/" target="_blank">FireJail</a> - a Type of<em> <a href="https://en.wikipedia.org/wiki/Chroot" target="_blank">chroot</a></em> jail to sandbox processes, services, and or apps&nbsp;so they have less of a chance of affecting the greater environment - <em><font color="#d5d5d5">This is one approach, another is to use a <a href="https://www.docker.com/why-docker" target="_blank">Docker container</a>, in specific circumstances</font></em></font></li><li><font size="2"><a href="https://www.docker.com/" target="_blank">Docker</a> - the primary&nbsp;program to deploy&nbsp;services and or apps as <a href="https://www.docker.com/resources/what-container" target="_blank">containers</a> - <em><font color="#d5d5d5">review the links and this </font></em></font><em><font color="#d5d5d5" size="2"><a href="https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf" target="_blank">cheat-sheet</a></font></em><font size="2"><em><font color="#d5d5d5"> for more, invaluable&nbsp;to development / DevOps</font></em></font></li><li><span style="color:rgb(36, 41, 46); font-weight:600"><a href="http://elinks.or.cz/"><font size="2">ELinks</font></a></span><font size="2"><span style="color:rgb(36, 41, 46)">&nbsp;-&nbsp;</span>as above, the best app for browsing the web via the command line - <em><font color="#d5d5d5">The web without a GUI is mighty boring, but sometimes you just need it</font></em></font></li><li><font size="2"><a href="https://httpie.org/" target="_blank">HTTPie</a> - A curl-like tool to interact with HTTP servers -<em><font color="#d5d5d5"> For those who use or interact with web servers</font></em></font></li></ol><br /><strong><font color="#a9f8dd" size="3">Games:</font></strong><ul><li><font size="2"><strong><font color="#a9f8dd"><a href="https://www.linuxlinks.com/nudoku/" target="_blank">Nudoku</a></font></strong> - Sudoko for the console / terminal (<em>available also for the Mac via homebrew</em>) - <em><font color="#d5d5d5">it's not </font><strong><font color="#f8a9a9">all</font></strong><font color="#d5d5d5"> about work</font></em></font></li><li><font size="2"><strong><font color="#a9f8dd"><a href="http://ninvaders.sourceforge.net/" target="_blank">Ninvaders</a></font></strong> - Play space invaders via the console (<em>available also for the Mac via homebrew</em>) - <em><font color="#d5d5d5">Because 80's Atari games never </font><font color="#64d5ff">ever</font><font color="#d5d5d5"> get old...</font></em></font></li><li><font size="2"><a href="https://fph.altervista.org/prog/bastet.html" target="_blank">Bastet </a>- A Tetris clone for the console -<em> <font color="#d5d5d5">C'mon it's Tetris, for the console ... how isn't this cool?</font></em></font></li></ul></div>
+
+<div class="paragraph"><em><font size="2"><font color="#d5d5d5">**</font><font color="#a9f8dd"> This website is mirrored on Github&nbsp;</font><a href="https://github.com/StewAlexanderACC/linuxtech.me" target="_blank">here</a><font color="#a9f8dd">&nbsp;</font></font></em></div>
+
+<div class="wsite-spacer" style="height:603px;"></div>
+			</div>
+		</div>
+      </div>
+
+	</div>
+</div>
+
+</div>
+
+    </div>
+
+    <div class="footer-wrap">
+      <div class="container">
+        <div class="footer"><div class='wsite-elements wsite-footer'>
+</div></div>
+      </div><!-- end container -->
+    </div><!-- end footer-wrap -->
+  </div><!-- /.wrapper -->
+
+  <div id="navMobile" class="nav mobile-nav">
+    <a class="hamburger" aria-label="Menu" href="#"><span></span></a>
+    <ul class="wsite-menu-default">
+    		<li id="pg782243356144666527" class="wsite-menu-item-wrap">
+    			<a
+    						href="/"
+    				class="wsite-menu-item"
+    				>
+    				Home
+    			</a>
+    			
+    		</li>
+    		<li id="active" class="wsite-menu-item-wrap">
+    			<a
+    						href="/linux.html"
+    				class="wsite-menu-item"
+    				>
+    				LinuxTech.Me
+    			</a>
+    			
+    		</li>
+    		<li id="pg108038458376680283" class="wsite-menu-item-wrap">
+    			<a
+    						href="/weather.html"
+    				class="wsite-menu-item"
+    				>
+    				MebaneWeather.com
+    			</a>
+    			
+    		</li>
+    		<li id="pg892572802385319811" class="wsite-menu-item-wrap">
+    			<a
+    						href="/services.html"
+    				class="wsite-menu-item"
+    				>
+    				SolveIT4.Me
+    			</a>
+    			
+    		</li>
+    		<li id="pg739578174254279946" class="wsite-menu-item-wrap">
+    			<a
+    						href="/contact.html"
+    				class="wsite-menu-item"
+    				>
+    				Contact
+    			</a>
+    			
+    		</li>
+    		<li id="pg315136755602483566" class="wsite-menu-item-wrap">
+    			<a
+    						href="/blog.html"
+    				class="wsite-menu-item"
+    				>
+    				Blog
+    			</a>
+    			
+    		</li>
+    </ul>
+  </div>
+
+  <script type="text/javascript" src="/files/theme/plugins.js?1565969634"></script>
+  <script type="text/javascript" src="/files/theme/custom.js?1565969634"></script>
+    <div id="customer-accounts-app"></div>
+    <script src="//cdn2.editmysite.com/js/site/main-customer-accounts-site.js?buildTime=1581533974"></script>
+
+		<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-7870337-1']);
+	_gaq.push(['_setDomainName', 'none']);
+	_gaq.push(['_setAllowLinker', true]);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+	_W.Analytics = _W.Analytics || {'trackers': {}};
+	_W.Analytics.trackers.wGA = '_gaq';
+</script>
+
+<script type="text/javascript" async=1>
+	;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+			p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+			};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+			n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,'script','//cdn2.editmysite.com/js/wsnbn/snowday262.js','snowday'));
+
+	var r = [99, 104, 101, 99, 107, 111, 117, 116, 46, 40, 119, 101, 101, 98, 108, 121, 124, 101, 100, 105, 116, 109, 121, 115, 105, 116, 101, 41, 46, 99, 111, 109];
+	var snPlObR = function(arr) {
+		var s = '';
+		for (var i = 0 ; i < arr.length ; i++){
+			s = s + String.fromCharCode(arr[i]);
+		}
+		return s;
+	};
+	var s = snPlObR(r);
+
+	var regEx = new RegExp(s);
+
+	_W.Analytics = _W.Analytics || {'trackers': {}};
+	_W.Analytics.trackers.wSP = 'snowday';
+	_W.Analytics.user_id = '77651292';
+	_W.Analytics.site_id = '643659607957072112';
+
+	// Setting do not track if the GDPR cookie is not present. This is then checked by the snowday initializer
+	// to set tracking decisions. https://github.com/snowplow/snowplow-javascript-tracker/blob/2.6.2/src/js/tracker.js#L1509
+	window.doNotTrack = document.cookie.indexOf('gdpr-kb') === -1 ? 'yes' : null;
+
+
+	(function(app_id, ec_hostname, discover_root_domain) {
+		var track = window[_W.Analytics.trackers.wSP];
+		if (!track) return;
+		track('newTracker', app_id, ec_hostname, {
+			appId: app_id,
+			post: true,
+			platform: 'web',
+			discoverRootDomain: discover_root_domain,
+			cookieName: '_snow_',
+			contexts: {
+				webPage: true,
+				performanceTiming: true,
+				gaCookies: true
+			},
+			crossDomainLinker: function (linkElement) {
+				return regEx.test(linkElement.href);
+			},
+			respectDoNotTrack: document.cookie.indexOf('gdpr-kb') === -1
+		});
+		track('trackPageView', _W.Analytics.user_id+':'+_W.Analytics.site_id);
+		track('crossDomainLinker', function (linkElement) {
+			return regEx.test(linkElement.href);
+		});
+	})(
+		'_wn',
+		'ec.editmysite.com',
+		true
+	);
+</script>
+
+
+
+
+
+<script>
+	(function(jQuery) {
+		try {
+			if (jQuery) {
+				jQuery('div.blog-social div.fb-like').attr('class', 'blog-social-item blog-fb-like');
+				var $commentFrame = jQuery('#commentArea iframe');
+				if ($commentFrame.length > 0) {
+					var frameHeight = jQuery($commentFrame[0].contentWindow.document).height() + 50;
+					$commentFrame.css('min-height', frameHeight + 'px');
+				}
+				if (jQuery('.product-button').length > 0){
+					jQuery(document).ready(function(){
+						jQuery('.product-button').parent().each(function(index, product){
+							if(jQuery(product).attr('target') == 'paypal'){
+								if (!jQuery(product).find('> [name="bn"]').length){
+									jQuery('<input>').attr({
+										type: 'hidden',
+										name: 'bn',
+										value: 'DragAndDropBuil_SP_EC'
+									}).appendTo(product);
+								}
+							}
+						});
+					});
+				}
+			}
+			else {
+				// Prototype
+				$$('div.blog-social div.fb-like').each(function(div) {
+					div.className = 'blog-social-item blog-fb-like';
+				});
+				$$('#commentArea iframe').each(function(iframe) {
+					iframe.style.minHeight = '410px';
+				});
+			}
+		}
+		catch(ex) {}
+	})(window._W && _W.jQuery);
+</script>
+
+<script>
+	window._W.isEUUser = false;
+	window._W.showCookieToAll = "";
+</script>
+
+
+	</body>
+</html>
