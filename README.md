@@ -187,8 +187,7 @@ power the web
     completions, themes and well *awesomeness *
 2.  **[Zsh / Oh my Zsh](https://ohmyz.sh/)** - Shell replacement for
     BASH if you need / want POSIX compliance (if you don't know what
-    POSIX is, we recommend **Fish**)
-
+    POSIX is, we recommend **Fish**)- *If you use this shell replacement, we recommend going [here](http://zzapper.co.uk/zshtips.html) for tons of usefull tips*
   
 **Tools:**
 
