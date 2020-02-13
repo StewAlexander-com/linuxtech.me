@@ -81,8 +81,6 @@
 • <strong>`$man -f`</strong>: lists details associated with the commands must run `$sudo makewhatis` first<br />
 • <strong>`$man -k`</strong>: searches man pages for the word or string <br />
 • <strong>`$man ascii`</strong>: outputs an ascii table<br />
-
----
 • <strong>[nano](https://tldr.ostera.io/nano)</strong> :text editor, ex `$nano mytext`, <em>may require downloading nano</em><br />
 • <strong>`$ncdu -rx /`</strong> : Scans the existing file system and orders directories by largest to smallest data size, fantastic for finding where all the free space has gone (think WinDirTree ), <em>may require downloading ncdu</em><br />
 • <strong>[nl](https://tldr.ostera.io/nl)</strong> adds line numbers to a file<br />
