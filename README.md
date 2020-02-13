@@ -159,7 +159,6 @@ power the web
 17. **[Micro](https://micro-editor.github.io/)** - Most Linux users know of the editors Vim, and perhaps Nano (see above); Micro is another editor with easy to learn commands (like ctrl-s for save) plus syntax highlighting ...  
 18. **[Pi-Hole](https://pi-hole.net/)**, a DNS blackhole that can be loaded on several different versions of Linux (including Debian Ubuntu), to keep ads away from your PC / Mac  
 19. **[TLDR](https://tldr.sh/)** - Useful examples to a large list of Linux / Mac and Windows commands (did you know that tldr means "*to long didn't read*"? Now you do ... ), *see below for the TLDR master list as a PDF*
-20. **[HTTPie](https://httpie.org/)** - A curl-like tool to interact with HTTP servers - *For those who use or interact with web servers*
 ***
 ***
 
@@ -254,6 +253,7 @@ power the web
     *[cheat-sheet](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)*
     *for more, invaluable to development / DevOps*
 19.  **[ELinks](http://elinks.or.cz/)** - as above, the best app for browsing the web via the command line - *The web without a GUI is mighty boring, but sometimes you just need it*
+20. **[HTTPie](https://httpie.org/)** - A curl-like tool to interact with HTTP servers - *For those who use or interact with web servers*
 
 **Games:**
 
