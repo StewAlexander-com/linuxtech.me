@@ -1,9 +1,10 @@
 ### Mirror of our [Linuxtech.Me](http://Linuxtech.me) website ...
 </br>
 
-We're on Gitter:
 [![Gitter](https://badges.gitter.im/linuxtech-me/community.svg)](https://gitter.im/linuxtech-me/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+---
+<br />
 <table style="width:100%;">
 <colgroup>
 <col style="width: 20%" />
