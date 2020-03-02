@@ -138,13 +138,8 @@
 </tbody>
 </table>
 
-1. **[Apache](https://httpd.apache.org/)** / **[NGINX](https://nginx.org/en/)**
-power the web  
-2. **[Docker](https://www.docker.com/)**,
-**[Vagrant](https://www.vagrantup.com/)**,
-**[KVM](https://www.linux-kvm.org/page/Main_Page)**,
-**[VirtualBox](https://www.virtualbox.org/)**, &
-**[VMWare](http://www.vmware.com/)** power system deployment  
+1. **[Apache](https://httpd.apache.org/)** / **[NGINX](https://nginx.org/en/)** power the web  
+2. **[Docker](https://www.docker.com/)**, **[Vagrant](https://www.vagrantup.com/)**, **[KVM](https://www.linux-kvm.org/page/Main_Page)**, **[VirtualBox](https://www.virtualbox.org/)**, & **[VMWare](http://www.vmware.com/)** power system deployment 
 3. **[RedHat Enterprise Linux(RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)**,
 **[Suse Linux Enterprise Server (SLES)](https://www.suse.com/products/server/)**, **[CentOS](https://www.centos.org/)**, **[Debian](https://www.debian.org/)** and **[Windows Server](https://www.microsoft.com/en-us/cloud-platform/windows-server)** are the OS’s that power the web  
 4. **[Glances](https://nicolargo.github.io/glances/)**, **[htop](http://hisham.hm/htop/)**, **[gtop](https://github.com/aksakalli/gtop)**,**[bmon](https://github.com/tgraf/bmon)** and Inixi are for monitoring system behavior  
@@ -159,8 +154,8 @@ power the web
 13. **[Grsync / rsync](http://www.opbyte.it/grsync/)** for backup  
 14. **[Brasero](https://wiki.gnome.org/Apps/Brasero)** cd/dvd burning gnome desktop utility  
 15. **[Nbtscan](http://www.unixwiz.net/tools/nbtscan.html)** - netbios scanner  
-16. **[Mc](https://midnight-commander.org/)** - “Midnight Comander” a command line, terminal “DOS-like” visual interface that interactively does the work of ls, mv, cp, rm, mkdir, and ftp (and their clones like exa), _- worthwhile for newbies_  </br>.  
-17. **[Micro](https://micro-editor.github.io/)** - Most Linux users know of the editors Vim, and perhaps Nano (see above); Micro is another editor with easy to learn commands (like ctrl-s for save) plus syntax highlighting.  
+16. **[Mc](https://midnight-commander.org/)** - “Midnight Comander” a command line, terminal “DOS-like” visual interface that interactively does the work of ls, mv, cp, rm, mkdir, and ftp (and their clones like exa), _- worthwhile for newbies_  
+
 18. **[Pi-Hole](https://pi-hole.net/)**, a DNS blackhole that can be loaded on several different versions of Linux (including Debian Ubuntu), to keep ads away from your PC / Mac  
 19. **[TLDR](https://tldr.sh/)** - Useful examples to a large list of Linux / Mac and Windows commands (did you know that tldr means "*to long didn't read*"? Now you do ... ), *see below for the TLDR master list as a PDF*  
 ***
