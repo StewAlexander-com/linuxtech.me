@@ -80,7 +80,7 @@
 • <strong>[logsave](https://www.cyberciti.biz/tips/howto-save-linux-unix-command-output-to-file.html)</strong>: saves command / terminal/ ssh session output to a file on the desktop with a timestamp<br />
 • <strong>[lsblk](https://tldr.ostera.io/linux/lsblk)</strong>: lists all the block devices / partitions of the system<br />
 • <strong>`$lslogins -u`</strong> : show all users with logins, `$lslogins -Lu` show last user logins<br />
-•<strong>[lsof](https://tldr.ostera.io/lsof)</strong>: list of open files on the system, <em>may require downloading lsof</em><br />
+•<strong>[lsof](https://tldr.ostera.io/lsof)</strong>: list of open files on the system, `$sudo lsof -i |grep -i tcp` for showing what is using the internet and if any connections are established, <em>may require downloading lsof</em><br />
 • <strong>[lvm](https://linoxide.com/linux-how-to/lvm-configuration-linux/) </strong>: logical volume manager for LUNs and disk partitions<br />
 • <strong>`$man -f`</strong>: lists details associated with the commands must run `$sudo makewhatis` first<br />
 • <strong>`$man -k`</strong>: searches man pages for the word or string <br />
@@ -99,7 +99,7 @@
 • <strong>[screen](https://tldr.ostera.io/screen)</strong>: for creating virtual terminals (<em>more useful if logged in remotely, such as by ssh</em>)<br />
 • <strong>[script](https://tldr.ostera.io/script)</strong>: logs all transactions of a terminal to a file<br />
 • <strong>[set](https://tldr.ostera.io/set)</strong>: shows other shell environmental variables<br />
-• <strong>[ss](https://tldr.ostera.io/linux/ss)</strong>: socket statistics, `$ss -a |grep -E "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b|[^a-z][^:]:[^:][^:][0-9]` provides only sockets that are attached to an or any IP address.<br />
+• <strong>[ss](https://tldr.ostera.io/linux/ss)</strong>: socket statistics, `$ss -a |grep -E "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b|[^a-z][^:]:[^:][^:][0-9]` provides only sockets that are attached to an or any IP address.<br />
 • <strong>[stat](https://tldr.ostera.io/stat)</strong> : provides user /group data for the file or directory, ex. `$sudo stat myfile`<br />
 • <strong>`$su -`</strong> : root privallages and root environment, use with caution<br />
 • <strong>`$su`</strong> : root privallages but keeps the current user environment, good for debugging<br />
