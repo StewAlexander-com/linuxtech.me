@@ -190,7 +190,7 @@
   
 **Tools:**
 
-1.  **[Micro](https://micro-editor.github.io/)** - As discussed above, a
+1.  **[Micro](https://micro-editor.github.io/)** - a
     *really cool* text editor that provides syntax highlighting and more
     (otherwise we recommend *Vim* as an alternative)
 2.  **[Ranger](https://github.com/ranger/ranger)** - A directory / file
