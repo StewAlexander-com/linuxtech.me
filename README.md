@@ -18,7 +18,7 @@
 <td><h2 id="linux-sys-admin-tools" class="wsite-content-title" style="text-align:center;"><a href="https://github.com/epcim/awesome-sysadmin2">Linux Sys-Admin Tools</a></h2></td>
 <td><h2 id="linux-shell-tools" class="wsite-content-title" style="text-align:center;"><a href="https://github.com/alebcay/awesome-shell/blob/master/README.md">Linux Shell Tools</a></h2></td>
 <td><h2 id="facebook-blog" class="wsite-content-title" style="text-align:center;"><a href="https://www.facebook.com/stewalexandercom">Facebook Blog</a></h2></td>
-<td><h2 id="cli-tools" class="wsite-content-title" style="text-align:center;"><a href="https://github.com/agarrharr/awesome-cli-apps">CLI Tools</a></h2></td>
+<td><h2 id="YoutTube Channel" class="wsite-content-title" style="text-align:center;"><a href="https://www.youtube.com/channel/UCgYw8gwAe57CVPSCFL20-Cw/featured">YouTube Channel</a></h2></td>
 </div></td>
 </tr>
 </tbody>
