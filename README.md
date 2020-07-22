@@ -1,6 +1,8 @@
 ### Mirror of our [Linuxtech.Me](http://Linuxtech.me) website ...
 </br>
 
+*Did you know this sight was picked up and Published in Medium's Mac o'clock as a feautured article? Now you do, see it [here](https://medium.com/macoclock/awesome-command-line-tools-for-the-mac-42d810dacf93)* </br>
+
 [![Gitter](https://badges.gitter.im/linuxtech-me/community.svg)](https://gitter.im/linuxtech-me/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ---
